@@ -1,1 +1,6 @@
-
+title: NSD Lab Blog
+url: "https://blog.nsdlab.kr"
+baseurl: ""
+permalink: /:slug/
+plugins:
+  - jekyll-feed
