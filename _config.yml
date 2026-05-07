@@ -4,11 +4,12 @@ url: "https://blog.nsdlab.kr"
 baseurl: ""
 permalink: /:slug/
 
+paginate: 9
+
 plugins:
   - jekyll-feed
-
+  - jekyll-paginate
 markdown: kramdown
 highlighter: rouge
-
 exclude:
   - README.md
