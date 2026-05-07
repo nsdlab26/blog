@@ -3,13 +3,8 @@ description: 실제 운영 사례 - NSD Lab
 url: "https://blog.nsdlab.kr"
 baseurl: ""
 permalink: /:slug/
-
-paginate: 9
-paginate_path: "/page:num/"
-
 plugins:
   - jekyll-feed
-  - jekyll-paginate
 markdown: kramdown
 highlighter: rouge
 exclude:
