@@ -26,10 +26,9 @@ meta_description: "영상 하나로 블로그 글까지. 영상 스크립트 기
 <div style="margin-bottom: 10px;"><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/87267d0e86aef.png" alt="" /></div>
 </section>
 <section style="margin-bottom: 60px;">
-<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5; color: #1a1f27;"> </h2>
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5; color: #1a1f27;">“다시 쓰는 구조” → “정리만 하는 구조”</h2>
 <div style="margin-bottom: 24px;"><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/e5d79f86ee74d.png" alt="" /></div>
-<p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;">자동화로 이렇게 바뀌었어요. 가장 크게 느낀 건, <strong style="font-weight: bold;">“글 쓰는 부담”이 아니라 “정리하는 즐거움”으로 변했다는 점</strong>입니다.</p>
+<p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;">자동화로 이렇게 바뀌었어요. 가장 크게 느낀 건, <strong style="font-weight: bold;">“글 쓰는 부담”</strong>이 아니라<strong style="font-weight: bold;"> “정리하는 부담”</strong>이 사라졌다는 점입니다.</p>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27;">예전에는 블로그를 따로 써야 한다는 압박이 있었는데, 지금은 초안이 이미 나오니까 “여기 조금만 다듬으면 되겠네” 정도로 바뀌었어요! 결과적으로 블로그 발행 주기도 짧아지고 흐름도 끊기지 않게 됐습니다.</p>
 </section>
 <section style="margin-bottom: 60px;">
@@ -48,7 +47,6 @@ meta_description: "영상 하나로 블로그 글까지. 영상 스크립트 기
 </section>
 <section style="margin-bottom: 48px;">
 <div style="margin-bottom: 32px;"><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/e5d4c8150ac34.png" alt="" /></div>
-<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 12px; line-height: 1.5; color: #1a1f27;"> </h2>
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 12px; line-height: 1.5; color: #1a1f27;"> </h2>
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 12px; line-height: 1.5; color: #1a1f27;">업무 자동화가 되면 뭐가 좋을까요?</h2>
 <p style="font-size: 16px; color: #666666; margin-bottom: 20px;"><strong>그리고 왜, 트래커로 "구조가 보이는" 자동화가 중요한 걸까요?</strong></p>
