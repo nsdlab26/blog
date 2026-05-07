@@ -15,7 +15,7 @@
   header {
     position: sticky; top: 0; z-index: 100;
     background: #fff;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #E7E7E7;
     height: 69px;
     display: flex; align-items: center;
     padding: 0 30px;
@@ -61,27 +61,27 @@
   }
   .cta-section::before {
     content: ''; position: absolute; inset: 0;
-    background: linear-gradient(180deg, #a78bfa 0%, #7c3aed 100%);
+    background: linear-gradient(180deg, #9b7ff0 0%, #7c5cef 100%);
     z-index: 0;
   }
   .cta-section > * { position: relative; z-index: 1; }
   .cta-section h2 { font-size: 30px; font-weight: 700; color: #fff; margin-bottom: 12px; line-height: 1.2; }
   .cta-section p { font-size: 18px; color: rgba(255,255,255,0.85); margin-bottom: 36px; line-height: 1.2; }
-  .cta-buttons { display: flex; gap: 12px; justify-content: center; }
+  .cta-buttons { display: flex; gap: 10px; justify-content: center; }
   .btn-consult {
-    display: inline-block; padding: 15px 28px;
-    border: 1px solid rgba(255,255,255,0.6); border-radius: 8px;
-    background: transparent; color: #fff; font-size: 14px; font-weight: 500;
+    display: inline-block; padding: 15px 20px;
+    border: 1px solid rgba(255,255,255,0.2); border-radius: 8px;
+    background: #fff; color: #6847de; font-size: 14px; font-weight: 500;
     letter-spacing: 1px; cursor: pointer; white-space: nowrap; transition: 0.3s;
   }
-  .btn-consult:hover { background: rgba(255,255,255,0.15); }
+  .btn-consult:hover { background: #8366ee; border-color: #fff; color: #fff; }
   .btn-kakao {
-    display: inline-block; padding: 15px 28px;
-    border: 1px solid rgba(255,255,255,0.3); border-radius: 8px;
-    background: rgba(255,255,255,0.15); color: #fff; font-size: 14px; font-weight: 500;
+    display: inline-block; padding: 15px 20px;
+    border: 1px solid rgba(255,255,255,0.2); border-radius: 8px;
+    background: #8366ee; color: #fff; font-size: 14px; font-weight: 500;
     letter-spacing: 1px; cursor: pointer; white-space: nowrap; transition: 0.3s;
   }
-  .btn-kakao:hover { background: rgba(255,255,255,0.25); }
+  .btn-kakao:hover { background: #fff; border-color: rgba(255,255,255,0.2); color: #6847de; }
 
   /* FOOTER */
   footer { background: #1e1e1e; padding: 40px 0 36px; color: #706f72; font-size: 12px; }
@@ -138,7 +138,7 @@
   <h2>지금 방식, 계속 가도 될지 고민이라면?</h2>
   <p>현재 구조, 어떻게 바꿔야 할지 확인해보세요.</p>
   <div class="cta-buttons">
-    <a href="http://diagnosis.nsdlab.kr/" class="btn-consult">30분 상담 예약하기</a>
+    <a href="https://calendar.app.google/N1PyNw72Hy1QD1VB6" class="btn-consult">30분 상담 예약하기</a>
     <a href="https://pf.kakao.com/_anlqX/" class="btn-kakao">카톡 문의하기</a>
   </div>
 </section>
