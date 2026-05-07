@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "글로벌 뷰티 브랜드, 프로젝트·업무 통합 관리"
+title: "글로벌 뷰티 브랜드 | 프로젝트·업무 통합 관리"
 slug: project-management
 category: 운영 시스템
 cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/8fd747d24aa7c.png
