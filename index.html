@@ -91,7 +91,7 @@ paginate: 9
 
   <!-- POSTS GRID - Jekyll이 _posts의 md 파일을 자동으로 카드로 만들어줌 -->
   <div class="grid" id="postsGrid">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
     <a href="{{ post.url }}" class="card" data-cat="{{ post.category }}">
       <div class="card-thumb">
         {% if post.cover %}
