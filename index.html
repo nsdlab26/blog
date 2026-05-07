@@ -90,7 +90,7 @@ title: 실제 사례
 
   <!-- POSTS GRID - Jekyll이 _posts의 md 파일을 자동으로 카드로 만들어줌 -->
   <div class="grid" id="postsGrid">
-    {% for post in paginator.posts %}
+     {% for post in site.posts %}
     <a href="{{ post.url }}" class="card" data-cat="{{ post.category }}">
       <div class="card-thumb">
         {% if post.cover %}
@@ -106,29 +106,6 @@ title: 실제 사례
     </a>
     {% endfor %}
   </div>
-
-  <!-- PAGINATION -->
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}">&#8249;</a>
-    {% else %}
-      <a>&#8249;</a>
-    {% endif %}
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <a class="active">{{ page }}</a>
-      {% else %}
-        <a href="{% if page == 1 %}/{% else %}/page{{ page }}/{% endif %}">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}">&#8250;</a>
-    {% else %}
-      <a>&#8250;</a>
-    {% endif %}
-  </div>
-  {% endif %}
 
 </div>
 
