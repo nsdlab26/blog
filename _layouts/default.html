@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title | default: site.title }} | NSD Lab</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+{% if page.cover %}<meta property="og:image" content="{{ page.cover | absolute_url }}">{% endif %}
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; color: #363636; font-size: 15px; line-height: 1.6; }
+  a { text-decoration: none; color: inherit; }
+
+  /* HEADER */
+  header {
+    position: sticky; top: 0; z-index: 100;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    height: 69px;
+    display: flex; align-items: center;
+    padding: 0 30px;
+    justify-content: flex-start;
+  }
+  .logo img { height: 32px; }
+  nav { margin-left: 40px; display: flex; gap: 32px; align-items: center; }
+  nav .nav-item { position: relative; }
+  nav .nav-item > a { font-size: 15px; color: #363636; font-weight: 700; padding: 4px 0; display: block; }
+  nav .nav-item > a:hover { color: #7c5cfc; }
+  nav .nav-item > a.active { color: #7c5cfc; }
+
+  .dropdown-menu {
+    display: none; position: absolute;
+    top: calc(100% + 10px); left: 0;
+    background: #fff; border: 1px solid #eee;
+    border-radius: 6px; box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    min-width: 160px; z-index: 200; padding: 6px 0;
+  }
+  .nav-item:hover .dropdown-menu { display: block; }
+  .dropdown-menu a { display: block; padding: 9px 18px; font-size: 14px; color: #363636; white-space: nowrap; }
+  .dropdown-menu a:hover { color: #7c5cfc; background: #f8f6ff; }
+
+  /* CTA */
+  .cta-section {
+    padding: 60px 30px; text-align: center;
+    position: relative; overflow: hidden;
+  }
+  .cta-section::before {
+    content: ''; position: absolute; inset: 0;
+    background: linear-gradient(135deg, #8366ee 0%, #6e4fe0 100%); z-index: 0;
+  }
+  .cta-section > * { position: relative; z-index: 1; }
+  .cta-section h2 { font-size: 30px; font-weight: 700; color: #fff; margin-bottom: 12px; line-height: 1.2; }
+  .cta-section p { font-size: 18px; color: #d8ccf8; margin-bottom: 32px; }
+  .cta-buttons { display: flex; gap: 10px; justify-content: center; }
+  .btn-consult {
+    display: inline-block; padding: 15px 20px;
+    border: 1px solid rgba(255,255,255,0.2); border-radius: 8px;
+    background: #fff; color: #6847de; font-size: 14px; font-weight: 500;
+    letter-spacing: 1px; cursor: pointer; white-space: nowrap; transition: 0.3s;
+  }
+  .btn-consult:hover { background: #8366ee; border-color: #fff; color: #fff; }
+  .btn-kakao {
+    display: inline-block; padding: 15px 20px;
+    border: 1px solid rgba(255,255,255,0.2); border-radius: 8px;
+    background: #8366ee; color: #fff; font-size: 14px; font-weight: 500;
+    letter-spacing: 1px; cursor: pointer; white-space: nowrap; transition: 0.3s;
+  }
+  .btn-kakao:hover { background: #fff; border-color: rgba(255,255,255,0.2); color: #6847de; }
+
+  /* FOOTER */
+  footer { background: #272727; padding: 32px 0 30px; color: #706f72; font-size: 12px; }
+  .footer-inner {
+    max-width: 1100px; margin: 0 auto; padding: 0 30px;
+    display: flex; justify-content: space-between; align-items: flex-start;
+  }
+  .footer-left { flex: 1; }
+  .footer-brand { color: #8366ee; font-weight: 700; font-size: 16px; margin-bottom: 8px; display: block; }
+  .footer-info { color: #706f72; font-size: 12px; font-weight: 700; line-height: 1.5; }
+  .footer-info a { color: #706f72; }
+  .footer-right { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+  .footer-social { display: flex; gap: 5px; justify-content: flex-end; }
+  .footer-social a {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 32px; height: 32px; border-radius: 7px;
+    color: #706f72; border: 1px solid rgba(255,255,255,0.1); transition: 0.3s;
+  }
+  .footer-social a:hover { color: #fff; border-color: rgba(255,255,255,0.4); }
+  .footer-links { text-align: right; color: #706f72; font-size: 15px; line-height: 2; }
+  .footer-links a { color: #706f72; }
+  .footer-links a:hover { color: #fff; }
+  .footer-copy { color: #706f72; font-size: 13px; line-height: 2; text-align: right; }
+
+  {{ content_css }}
+</style>
+</head>
+<body>
+
+<header>
+  <a href="https://www.nsdlab.kr/index" class="logo">
+    <img src="https://i.ibb.co/rRsfN2x9/nsdlab-logo.png" alt="NSD Lab">
+  </a>
+  <nav>
+    <div class="nav-item"><a href="https://www.nsdlab.kr/about">소개</a></div>
+    <div class="nav-item">
+      <a href="https://www.nsdlab.kr/system">시스템·자동화</a>
+      <div class="dropdown-menu">
+        <a href="https://www.nsdlab.kr/ops_system">운영 시스템</a>
+        <a href="https://www.nsdlab.kr/workflow">업무 프로세스 자동화</a>
+      </div>
+    </div>
+    <div class="nav-item"><a href="https://www.nsdlab.kr/businessweb">웹페이지</a></div>
+    <div class="nav-item">
+      <a href="https://www.nsdlab.kr/store">스토어</a>
+      <div class="dropdown-menu">
+        <a href="https://www.nsdlab.kr/main">메인상품</a>
+        <a href="https://www.nsdlab.kr/guide">가이드북</a>
+      </div>
+    </div>
+    <div class="nav-item"><a href="/" class="active">실제 사례</a></div>
+  </nav>
+</header>
+
+{{ content }}
+
+<section class="cta-section">
+  <h2>지금 방식, 계속 가도 될지 고민이라면?</h2>
+  <p>현재 구조, 어떻게 바꿔야 할지 확인해보세요.</p>
+  <div class="cta-buttons">
+    <a href="http://diagnosis.nsdlab.kr/" class="btn-consult">30분 상담 예약하기</a>
+    <a href="https://pf.kakao.com/_anlqX/" class="btn-kakao">카톡 문의하기</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-left">
+      <span class="footer-brand">NSD Lab</span>
+      <p class="footer-info">
+        상호: 엔에스디랩 | 사업자 등록번호: 419-57-01003 | 대표: 윤서영<br>
+        소재지: 서울특별시 강동구 고덕로 47, 3층 303-34호(암사동, 정산상가)<br>
+        통신판매업 신고번호: 제2026-서울강동-0509호<br>
+        개인정보관리책임자: 윤서영 | 이메일: <a href="mailto:nsdlab26@gmail.com">nsdlab26@gmail.com</a>
+      </p>
+    </div>
+    <div class="footer-right">
+      <div class="footer-social">
+        <a href="https://www.instagram.com/nsdlab26/" target="_blank" title="Instagram">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
+        <a href="http://www.youtube.com/@nsdlab" target="_blank" title="YouTube">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+        </a>
+        <a href="https://m.blog.naver.com/apple_carrot89" target="_blank" title="Naver Blog">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M16.273 12.845L7.376 0H0v24h7.727V11.155L16.624 24H24V0h-7.727z"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@nsdlab26" target="_blank" title="TikTok">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+        </a>
+      </div>
+      <div class="footer-links">
+        <a href="https://nsdlab.imweb.me/?mode=policy" target="_blank">이용약관</a>&nbsp;|&nbsp;<a href="https://nsdlab.imweb.me/?mode=privacy" target="_blank">개인정보처리방침</a>
+      </div>
+      <div class="footer-copy">© 2026 NSD Lab. All rights reserved.</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

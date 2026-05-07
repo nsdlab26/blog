@@ -1,0 +1,111 @@
+---
+layout: default
+---
+<style>
+  /* POST HERO */
+  .post-hero {
+    background: #f5f4f8;
+    padding: 48px 0;
+  }
+  .post-hero-inner {
+    max-width: 1100px; margin: 0 auto; padding: 0 30px;
+  }
+  .post-back {
+    display: inline-flex; align-items: center; gap: 6px;
+    color: #8366ee; font-size: 14px; font-weight: 600;
+    margin-bottom: 20px; transition: 0.2s;
+  }
+  .post-back:hover { color: #6847de; }
+  .post-cat {
+    display: inline-block;
+    color: #8366ee; font-size: 12px; font-weight: 700;
+    background: #ede9ff; padding: 4px 10px; border-radius: 20px;
+    margin-bottom: 14px;
+  }
+  .post-title {
+    font-size: 36px; font-weight: 800; color: #1a1a1a;
+    line-height: 1.3; margin-bottom: 12px;
+  }
+  .post-date { font-size: 13px; color: #999; }
+
+  /* COVER IMAGE */
+  .post-cover {
+    max-width: 1100px; margin: 0 auto; padding: 32px 30px 0;
+  }
+  .post-cover img {
+    width: 100%; max-height: 480px; object-fit: cover;
+    border-radius: 12px;
+  }
+
+  /* POST BODY */
+  .post-body {
+    max-width: 760px; margin: 0 auto; padding: 48px 30px 80px;
+  }
+  .post-body h1,
+  .post-body h2 { font-size: 24px; font-weight: 800; color: #1a1a1a; margin: 40px 0 16px; }
+  .post-body h3 { font-size: 19px; font-weight: 700; color: #1a1a1a; margin: 32px 0 12px; }
+  .post-body p { font-size: 16px; line-height: 1.85; color: #363636; margin-bottom: 20px; }
+  .post-body ul, .post-body ol { padding-left: 24px; margin-bottom: 20px; }
+  .post-body li { font-size: 16px; line-height: 1.85; color: #363636; margin-bottom: 6px; }
+  .post-body blockquote {
+    border-left: 4px solid #8366ee; padding: 14px 20px;
+    background: #f8f6ff; border-radius: 0 8px 8px 0;
+    margin: 24px 0; color: #555;
+  }
+  .post-body code {
+    background: #f4f3fa; padding: 2px 6px; border-radius: 4px;
+    font-size: 14px; color: #8366ee;
+  }
+  .post-body pre {
+    background: #1e1e2e; border-radius: 8px; padding: 20px;
+    overflow-x: auto; margin-bottom: 24px;
+  }
+  .post-body pre code {
+    background: none; color: #cdd6f4; font-size: 14px; padding: 0;
+  }
+  .post-body img {
+    width: 100%; border-radius: 8px; margin: 24px 0;
+  }
+  .post-body a { color: #8366ee; text-decoration: underline; }
+  .post-body hr { border: none; border-top: 1px solid #ebebeb; margin: 40px 0; }
+
+  /* BACK TO LIST */
+  .post-footer-nav {
+    max-width: 760px; margin: 0 auto; padding: 0 30px 60px;
+    border-top: 1px solid #ebebeb; padding-top: 32px;
+  }
+  .back-to-list {
+    display: inline-flex; align-items: center; gap: 8px;
+    color: #8366ee; font-size: 15px; font-weight: 600;
+    border: 1.5px solid #8366ee; padding: 10px 20px; border-radius: 8px;
+    transition: 0.2s;
+  }
+  .back-to-list:hover { background: #8366ee; color: #fff; }
+</style>
+
+<!-- POST HERO -->
+<section class="post-hero">
+  <div class="post-hero-inner">
+    <a href="/" class="post-back">
+      ← 목록으로
+    </a>
+    <div class="post-cat">{{ page.category }}</div>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <span class="post-date">{{ page.date | date: "%Y년 %m월 %d일" }}</span>
+  </div>
+</section>
+
+{% if page.cover %}
+<div class="post-cover">
+  <img src="{{ page.cover }}" alt="{{ page.title }}">
+</div>
+{% endif %}
+
+<!-- POST CONTENT -->
+<article class="post-body">
+  {{ content }}
+</article>
+
+<div class="post-footer-nav">
+  <a href="/" class="back-to-list">← 목록으로 돌아가기</a>
+</div>

@@ -1,0 +1,14 @@
+title: NSD Lab Blog
+description: 실제 운영 사례 - NSD Lab
+url: "https://blog.nsdlab.kr"
+baseurl: ""
+permalink: /:slug/
+
+plugins:
+  - jekyll-feed
+
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - README.md
