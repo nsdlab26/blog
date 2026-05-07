@@ -1,69 +1,11 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>실제 운영 사례 | NSD Lab</title>
+---
+layout: default
+title: 실제 사례
+---
 <style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; color: #363636; font-size: 15px; line-height: 1.6; }
-  a { text-decoration: none; color: inherit; }
-
-  /* HEADER */
-  header {
-    position: sticky; top: 0; z-index: 100;
-    background: #fff;
-    border-bottom: 1px solid #eee;
-    height: 69px;
-    display: flex; align-items: center;
-    padding: 0 30px;
-    justify-content: space-between;
-  }
-  .logo img { height: 32px; }
-  nav { display: flex; gap: 32px; align-items: center; }
-  nav .nav-item { position: relative; }
-  nav .nav-item > a { font-size: 15px; color: #363636; font-weight: 500; padding: 4px 0; display: block; }
-  nav .nav-item > a:hover { color: #7c5cfc; }
-  nav .nav-item > a.active { color: #7c5cfc; }
-
-  /* DROPDOWN */
-  .dropdown-menu {
-    display: none;
-    position: absolute;
-    top: calc(100% + 10px);
-    left: 0;
-    background: #fff;
-    border: 1px solid #eee;
-    border-radius: 6px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
-    min-width: 160px;
-    z-index: 200;
-    padding: 6px 0;
-  }
-  .nav-item:hover .dropdown-menu { display: block; }
-  .dropdown-menu a {
-    display: block;
-    padding: 9px 18px;
-    font-size: 14px;
-    color: #363636;
-    white-space: nowrap;
-  }
-  .dropdown-menu a:hover { color: #7c5cfc; background: #f8f6ff; }
-
-  .header-right { display: flex; align-items: center; gap: 8px; }
-  .login-btn {
-    width: 36px; height: 36px;
-    display: flex; align-items: center; justify-content: center;
-    color: #363636; cursor: pointer; font-size: 22px;
-  }
-  .login-btn:hover { color: #7c5cfc; }
-
   /* HERO */
-  .hero {
-    background: #f5f4f8;
-    padding: 48px 0 48px 0;
-  }
-  .hero-inner { max-width: 1100px; margin: 0 auto; padding: 0 30px; width: 100%; }
+  .hero { background: #f5f4f8; padding: 48px 0; }
+  .hero-inner { max-width: 1100px; margin: 0 auto; padding: 0 30px; }
   .hero-label { color: #7c5cfc; font-size: 14px; font-weight: 600; margin-bottom: 12px; }
   .hero-title { font-size: 36px; font-weight: 800; color: #1a1a1a; }
 
@@ -74,17 +16,12 @@
   .filter-tabs {
     display: flex; gap: 8px; margin-bottom: 32px;
     border-bottom: 1px solid #ebebeb;
-    padding-bottom: 0;
   }
   .filter-tab {
-    padding: 10px 18px;
-    font-size: 14px; font-weight: 600;
-    color: #888; cursor: pointer;
-    border: none; background: none;
-    border-bottom: 2px solid transparent;
-    margin-bottom: -1px;
-    transition: color 0.2s, border-color 0.2s;
-    white-space: nowrap;
+    padding: 10px 18px; font-size: 14px; font-weight: 600;
+    color: #888; cursor: pointer; border: none; background: none;
+    border-bottom: 2px solid transparent; margin-bottom: -1px;
+    transition: color 0.2s, border-color 0.2s; white-space: nowrap;
   }
   .filter-tab:hover { color: #7c5cfc; }
   .filter-tab.active { color: #7c5cfc; border-bottom-color: #7c5cfc; }
@@ -94,47 +31,31 @@
 
   /* CARD */
   .card {
-    cursor: pointer;
-    border-radius: 12px;
-    overflow: hidden;
-    background: #fff;
-    border: 1px solid #f0f0f0;
+    display: block; cursor: pointer;
+    border-radius: 12px; overflow: hidden;
+    background: #fff; border: 1px solid #f0f0f0;
     transition: box-shadow 0.22s, transform 0.22s;
+    text-decoration: none; color: inherit;
   }
   .card:hover {
     box-shadow: 0 8px 32px rgba(131,102,238,0.13);
     transform: translateY(-3px);
   }
   .card-thumb {
-    width: 100%; aspect-ratio: 4/3;
-    overflow: hidden;
+    width: 100%; aspect-ratio: 4/3; overflow: hidden;
     display: flex; align-items: center; justify-content: center;
     background: #f4f3fa;
   }
   .card-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s; }
   .card:hover .card-thumb img { transform: scale(1.04); }
-  .card-thumb.icon-thumb { background: #f4f3fa; }
-  .card-thumb.icon-thumb img { width: 52%; height: 52%; object-fit: contain; }
-
   .card-body { padding: 14px 16px 18px; }
   .card-cat {
-    display: inline-block;
-    color: #8366ee; font-size: 11px; font-weight: 700;
-    letter-spacing: 0.5px;
-    background: #f0ecff;
-    padding: 3px 8px; border-radius: 20px;
-    margin-bottom: 8px;
+    display: inline-block; color: #8366ee; font-size: 11px; font-weight: 700;
+    letter-spacing: 0.5px; background: #f0ecff;
+    padding: 3px 8px; border-radius: 20px; margin-bottom: 8px;
   }
   .card-title { font-size: 14px; color: #1a1a1a; font-weight: 600; line-height: 1.55; }
   .card:hover .card-title { color: #7c5cfc; }
-
-  /* THUMB COLORS */
-  .thumb-youtube { background: #fff5f5; }
-  .thumb-blue { background: #eef3ff; }
-  .thumb-beach { background: #fffbee; }
-  .thumb-gear { background: #eef7ff; }
-  .thumb-process { background: #eef7ff; }
-  .thumb-org { background: #fff5ee; }
 
   /* PAGINATION */
   .pagination { display: flex; justify-content: center; align-items: center; gap: 6px; margin-top: 48px; }
@@ -142,144 +63,11 @@
     width: 36px; height: 36px; border-radius: 50%;
     display: flex; align-items: center; justify-content: center;
     font-size: 14px; color: #888; cursor: pointer;
-    border: 1px solid transparent; transition: all 0.2s;
-    font-weight: 500;
+    border: 1px solid transparent; transition: all 0.2s; font-weight: 500;
   }
   .pagination a.active { background: #7c5cfc; color: #fff; font-weight: 700; border-color: #7c5cfc; }
   .pagination a:hover:not(.active) { background: #f4f3fa; color: #7c5cfc; }
-
-  /* CTA */
-  .cta-section {
-    background: rgba(131, 102, 238, 0);
-    padding: 60px 30px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
-  .cta-section::before {
-    content: '';
-    position: absolute; inset: 0;
-    background: linear-gradient(135deg, #8366ee 0%, #6e4fe0 100%);
-    z-index: 0;
-  }
-  .cta-section > * { position: relative; z-index: 1; }
-  .cta-section h2 { font-size: 30px; font-weight: 700; color: #fff; margin-bottom: 12px; line-height: 1.2; }
-  .cta-section p { font-size: 18px; color: #d8ccf8; margin-bottom: 32px; }
-  .cta-buttons { display: flex; gap: 10px; justify-content: center; }
-  /* 30분 상담 버튼: 흰 배경, 보라 텍스트 → hover시 보라 배경 흰 텍스트 */
-  .btn-consult {
-    display: inline-block;
-    padding: 15px 20px;
-    border: 1px solid rgba(255,255,255,0.2);
-    border-radius: 8px;
-    background: #fff;
-    color: #6847de;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    cursor: pointer;
-    white-space: nowrap;
-    transition: 0.3s;
-  }
-  .btn-consult:hover { background: #8366ee; border-color: #fff; color: #fff; }
-  /* 카톡 문의 버튼: 보라 배경, 흰 텍스트 → hover시 흰 배경 보라 텍스트 */
-  .btn-kakao {
-    display: inline-block;
-    padding: 15px 20px;
-    border: 1px solid rgba(255,255,255,0.2);
-    border-radius: 8px;
-    background: #8366ee;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    cursor: pointer;
-    white-space: nowrap;
-    transition: 0.3s;
-  }
-  .btn-kakao:hover { background: #fff; border-color: rgba(255,255,255,0.2); color: #6847de; }
-
-  /* FOOTER */
-  footer {
-    background: #272727;
-    padding: 32px 0 30px;
-    color: #706f72;
-    font-size: 12px;
-  }
-  .footer-inner {
-    max-width: 1100px; margin: 0 auto; padding: 0 30px;
-    display: flex; justify-content: space-between; align-items: flex-start;
-  }
-  .footer-left { flex: 1; }
-  .footer-brand {
-    color: #8366ee; font-weight: 700; font-size: 16px;
-    margin-bottom: 8px; display: block;
-  }
-  .footer-info { color: #706f72; font-size: 12px; font-weight: 700; line-height: 1.5; }
-  .footer-info a { color: #706f72; }
-  .footer-right { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
-  .footer-social { display: flex; gap: 5px; justify-content: flex-end; }
-  .footer-social a {
-    display: inline-flex; align-items: center; justify-content: center;
-    width: 32px; height: 32px; border-radius: 7px;
-    color: #706f72; font-size: 20px; border: 1px solid rgba(255,255,255,0.1);
-    transition: 0.3s;
-  }
-  .footer-social a:hover { color: #fff; border-color: rgba(255,255,255,0.4); }
-  .footer-links { text-align: right; color: #706f72; font-size: 15px; line-height: 2; }
-  .footer-links a { color: #706f72; }
-  .footer-links a:hover { color: #fff; }
-  .footer-copy { color: #706f72; font-size: 13px; line-height: 2; text-align: right; }
-
-  /* ICON PLACEHOLDER COLORS */
-  .thumb-youtube { background: #fff; }
-  .thumb-blue { background: #e8f0fe; }
-  .thumb-beach { background: #fff8e1; }
-  .thumb-gear { background: #e8f4fd; }
-  .thumb-process { background: #e8f4fd; }
-  .thumb-org { background: #fff3e0; }
 </style>
-</head>
-<body>
-
-<!-- HEADER -->
-<header>
-  <a href="https://www.nsdlab.kr/index" class="logo">
-    <img src="https://i.ibb.co/rRsfN2x9/nsdlab-logo.png" alt="NSD Lab">
-  </a>
-  <nav>
-    <div class="nav-item">
-      <a href="https://www.nsdlab.kr/about">소개</a>
-    </div>
-    <div class="nav-item">
-      <a href="https://www.nsdlab.kr/system">시스템·자동화</a>
-      <div class="dropdown-menu">
-        <a href="https://www.nsdlab.kr/ops_system">운영 시스템</a>
-        <a href="https://www.nsdlab.kr/workflow">업무 프로세스 자동화</a>
-      </div>
-    </div>
-    <div class="nav-item">
-      <a href="https://www.nsdlab.kr/businessweb">웹페이지</a>
-    </div>
-    <div class="nav-item">
-      <a href="https://www.nsdlab.kr/store">스토어</a>
-      <div class="dropdown-menu">
-        <a href="https://www.nsdlab.kr/main">메인상품</a>
-        <a href="https://www.nsdlab.kr/guide">가이드북</a>
-      </div>
-    </div>
-    <div class="nav-item">
-      <a href="https://www.nsdlab.kr/blog" class="active">실제 사례</a>
-    </div>
-  </nav>
-  <div class="header-right">
-    <a href="javascript:;" class="login-btn" title="로그인">
-      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"/>
-      </svg>
-    </a>
-  </div>
-</header>
 
 <!-- HERO -->
 <section class="hero">
@@ -300,138 +88,47 @@
     <button class="filter-tab" data-cat="웹페이지">웹페이지</button>
   </div>
 
-  <!-- POSTS GRID -->
+  <!-- POSTS GRID - Jekyll이 _posts의 md 파일을 자동으로 카드로 만들어줌 -->
   <div class="grid" id="postsGrid">
-
-    <div class="card" data-cat="운영 시스템">
-      <div class="card-thumb icon-thumb thumb-youtube">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="">
-      </div>
-      <div class="card-body">
-        <span class="card-cat">운영 시스템</span>
-        <div class="card-title">1시간 유튜브 영상도 5분이면 블로그 글 완성</div>
-      </div>
-    </div>
-
-    <div class="card" data-cat="운영 시스템">
-      <div class="card-thumb icon-thumb thumb-blue">
-        <img src="https://cdn-icons-png.flaticon.com/512/2921/2921222.png" alt="">
-      </div>
-      <div class="card-body">
-        <span class="card-cat">운영 시스템</span>
-        <div class="card-title">컨텐츠 업로드 시간 90% 단축! 버튼 하나로 릴스·쇼츠 배포, 기록 관리</div>
-      </div>
-    </div>
-
-    <div class="card" data-cat="운영 시스템">
-      <div class="card-thumb icon-thumb thumb-beach">
-        <img src="https://cdn-icons-png.flaticon.com/512/3069/3069172.png" alt="">
-      </div>
-      <div class="card-body">
-        <span class="card-cat">운영 시스템</span>
-        <div class="card-title">[운영 체계 #4] 자동 계산되는 휴가 신청·승인 시스템</div>
-      </div>
-    </div>
-
-    <div class="card" data-cat="운영 시스템">
-      <div class="card-thumb icon-thumb thumb-gear">
-        <img src="https://cdn-icons-png.flaticon.com/512/2906/2906274.png" alt="">
-      </div>
-      <div class="card-body">
-        <span class="card-cat">운영 시스템</span>
-        <div class="card-title">[운영 체계 #3] 누락 없는 정기 업무 관리</div>
-      </div>
-    </div>
-
-    <div class="card" data-cat="운영 시스템">
-      <div class="card-thumb icon-thumb thumb-process">
-        <img src="https://cdn-icons-png.flaticon.com/512/1534/1534938.png" alt="">
-      </div>
-      <div class="card-body">
-        <span class="card-cat">운영 시스템</span>
-        <div class="card-title">[운영 체계 #2] HR·인사, 1명으로 전 과정을 관리하는 방식</div>
-      </div>
-    </div>
-
-    <div class="card" data-cat="운영 시스템">
-      <div class="card-thumb icon-thumb thumb-org">
-        <img src="https://cdn-icons-png.flaticon.com/512/3281/3281289.png" alt="">
-      </div>
-      <div class="card-body">
-        <span class="card-cat">운영 시스템</span>
-        <div class="card-title">[운영 체계 #1] 조직의 정보를 '자산'으로 만드는 구조</div>
-      </div>
-    </div>
-
-    <div class="card" data-cat="웹페이지">
+    {% for post in site.posts %}
+    <a href="{{ post.url }}" class="card" data-cat="{{ post.category }}">
       <div class="card-thumb">
-        <img src="https://cdn-icons-png.flaticon.com/512/1087/1087815.png" alt="" style="width:50%;height:50%;object-fit:contain;">
+        {% if post.cover %}
+          <img src="{{ post.cover }}" alt="{{ post.title }}">
+        {% else %}
+          <img src="https://via.placeholder.com/400x300/f4f3fa/8366ee?text=NSD+Lab" alt="{{ post.title }}">
+        {% endif %}
       </div>
       <div class="card-body">
-        <span class="card-cat">웹페이지</span>
-        <div class="card-title">신규 서비스 & 고객 모집용 서비스 소개서</div>
+        <span class="card-cat">{{ post.category }}</span>
+        <div class="card-title">{{ post.title }}</div>
       </div>
-    </div>
-
-    <div class="card" data-cat="웹페이지">
-      <div class="card-thumb">
-        <img src="https://cdn-icons-png.flaticon.com/512/562/562678.png" alt="" style="width:50%;height:50%;object-fit:contain;">
-      </div>
-      <div class="card-body">
-        <span class="card-cat">웹페이지</span>
-        <div class="card-title">음식점·카페 & 메뉴 소개서</div>
-      </div>
-    </div>
-
-    <div class="card" data-cat="웹페이지">
-      <div class="card-thumb">
-        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="" style="width:50%;height:50%;object-fit:contain;">
-      </div>
-      <div class="card-body">
-        <span class="card-cat">웹페이지</span>
-        <div class="card-title">[피부과] 기존 웹사이트를 노션으로 재구현</div>
-      </div>
-    </div>
-
-    <div class="card" data-cat="웹페이지">
-      <div class="card-thumb">
-        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="" style="width:50%;height:50%;object-fit:contain;">
-      </div>
-      <div class="card-body">
-        <span class="card-cat">웹페이지</span>
-        <div class="card-title">[치과] 노션으로 구현한 간단한 웹사이트</div>
-      </div>
-    </div>
-
-    <div class="card" data-cat="운영 시스템">
-      <div class="card-thumb icon-thumb">
-        <img src="https://cdn-icons-png.flaticon.com/512/2785/2785482.png" alt="">
-      </div>
-      <div class="card-body">
-        <span class="card-cat">운영 시스템</span>
-        <div class="card-title">[병원] 왜 우리 병원은 체계가 없는 것처럼 느껴질까?</div>
-      </div>
-    </div>
-
-    <div class="card" data-cat="운영 시스템">
-      <div class="card-thumb icon-thumb">
-        <img src="https://cdn-icons-png.flaticon.com/512/3774/3774278.png" alt="">
-      </div>
-      <div class="card-body">
-        <span class="card-cat">운영 시스템</span>
-        <div class="card-title">[병원] 상담 기록 시스템, 예약률을 높이는 운영 구조</div>
-      </div>
-    </div>
-
+    </a>
+    {% endfor %}
   </div>
 
   <!-- PAGINATION -->
+  {% if paginator.total_pages > 1 %}
   <div class="pagination">
-    <a href="#">&#8249;</a>
-    <a href="#" class="active">1</a>
-    <a href="#">2</a>
-    <a href="#">&#8250;</a>
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}">&#8249;</a>
+    {% else %}
+      <a>&#8249;</a>
+    {% endif %}
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <a class="active">{{ page }}</a>
+      {% else %}
+        <a href="{% if page == 1 %}/{% else %}/page{{ page }}/{% endif %}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}">&#8250;</a>
+    {% else %}
+      <a>&#8250;</a>
+    {% endif %}
   </div>
+  {% endif %}
 
 </div>
 
@@ -447,51 +144,3 @@
     });
   });
 </script>
-
-<!-- CTA -->
-<section class="cta-section">
-  <h2>지금 방식, 계속 가도 될지 고민이라면?</h2>
-  <p>현재 구조, 어떻게 바꿔야 할지 확인해보세요.</p>
-  <div class="cta-buttons">
-    <a href="http://diagnosis.nsdlab.kr/" class="btn-consult">30분 상담 예약하기</a>
-    <a href="https://pf.kakao.com/_anlqX/" class="btn-kakao">카톡 문의하기</a>
-  </div>
-</section>
-
-<!-- FOOTER -->
-<footer>
-  <div class="footer-inner">
-    <div class="footer-left">
-      <span class="footer-brand">NSD Lab</span>
-      <p class="footer-info">
-        상호: 엔에스디랩 | 사업자 등록번호: 419-57-01003 | 대표: 윤서영<br>
-        소재지: 서울특별시 강동구 고덕로 47, 3층 303-34호(암사동, 정산상가)<br>
-        통신판매업 신고번호: 제2026-서울강동-0509호<br>
-        개인정보관리책임자: 윤서영 | 이메일: <a href="mailto:nsdlab26@gmail.com">nsdlab26@gmail.com</a>
-      </p>
-    </div>
-    <div class="footer-right">
-      <div class="footer-social">
-        <a href="https://www.instagram.com/nsdlab26/" target="_blank" title="Instagram">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-        </a>
-        <a href="http://www.youtube.com/@nsdlab" target="_blank" title="YouTube">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
-        </a>
-        <a href="https://m.blog.naver.com/apple_carrot89" target="_blank" title="Naver Blog">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M16.273 12.845L7.376 0H0v24h7.727V11.155L16.624 24H24V0h-7.727z"/></svg>
-        </a>
-        <a href="https://www.tiktok.com/@nsdlab26" target="_blank" title="TikTok">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
-        </a>
-      </div>
-      <div class="footer-links">
-        <a href="https://nsdlab.imweb.me/?mode=policy" target="_blank">이용약관</a>&nbsp;|&nbsp;<a href="https://nsdlab.imweb.me/?mode=privacy" target="_blank">개인정보처리방침</a>
-      </div>
-      <div class="footer-copy">© 2026 NSD Lab. All rights reserved.</div>
-    </div>
-  </div>
-</footer>
-
-</body>
-</html>
