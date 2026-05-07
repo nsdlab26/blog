@@ -56,7 +56,6 @@ meta_description: "영상 하나로 블로그 글까지. 영상 스크립트 기
 <h3 style="font-size: 18px; font-weight: bold; margin-bottom: 12px; line-height: 1.5;">📍 업로드가 완료되면 노션에 ‘완료’로 변경됩니다.</h3>
 <p style="font-size: 16px; font-weight: 400; margin-bottom: 18px; line-height: 1.8;">자동으로 트래커에 반영되니 “이거 언제 올렸지?”, “이거 올렸었나?” 하는 경우가 사라졌어요.</p>
 <div style="font-size: 14px; color: #717680; background-color: #f9f9fb; padding: 12px 20px; border-radius: 6px; display: inline-block; margin-bottom: 18px; font-weight: 400;">* Make 자동화 모듈 ㅡ ‘무료 플랜’ 기준 월 약 120회 사용 가능</div>
-<div style="font-size: 14px; color: #717680; background-color: #f9f9fb; padding: 12px 20px; border-radius: 6px; display: inline-block; margin-bottom: 18px; font-weight: 400;"> </div>
 <div style="margin-bottom: 10px;"> </div>
 <div style="margin-bottom: 10px;"><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/fb48b75c8ce08.png" alt="" /></div>
 </section>
