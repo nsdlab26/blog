@@ -2,7 +2,7 @@
 layout: post
 title: "음식점·카페 & 메뉴 소개서 "
 slug: restaurant-guide
-category: 운영 시스템
+category: 웹페이지
 cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/11dd1fa89901c.png
 date: 2026-02-03
 meta_title: "카페·음식점 소개 페이지, 매장 정보·메뉴·스토리를 한 장에"
