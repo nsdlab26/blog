@@ -2,7 +2,7 @@
 layout: post
 title: "신규 서비스 & 고객 모집용 서비스 소개서"
 slug: service-website
-category: 운영 시스템
+category: 웹페이지
 cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/a2f1f255d2b63.png
 date: 2026-02-10
 meta_title: "신규 서비스 & 고객 모집용 서비스 소개서"
