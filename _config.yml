@@ -9,3 +9,5 @@ markdown: kramdown
 highlighter: rouge
 exclude:
   - README.md
+titles_from_headings:
+  enabled: false
