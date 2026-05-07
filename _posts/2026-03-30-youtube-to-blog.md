@@ -22,10 +22,6 @@ meta_description: "영상 하나로 블로그 글까지. 영상 스크립트 기
 	</blockquote>
 	<section style="margin-bottom: 60px;">
 
-		<h2 style="font-size: 24px; font-weight: 700; margin-top: 0px; margin-bottom: 20px; line-height: 2;">
-			<br>
-		</h2>
-
 		<h2 style="font-size: 24px; font-weight: 700; margin-top: 0px; margin-bottom: 20px; line-height: 2;">영상 하나로 블로그 글까지 쓰는 방법</h2>
 
 		<p style="font-size: 18px; font-weight: 300; line-height: 2; margin-bottom: 18px;">&ldquo;영상은 만들었는데, 블로그 또 써야 하네&hellip;&rdquo;
@@ -39,9 +35,6 @@ meta_description: "영상 하나로 블로그 글까지. 영상 스크립트 기
 	</section>
 	<section style="margin-bottom: 60px;">
 
-		<h3 style="font-size: 20px; font-weight: 700; margin-bottom: 20px; line-height: 2;">
-			<br>
-		</h3>
 
 		<h3 style="font-size: 20px; font-weight: 700; margin-bottom: 20px; line-height: 2;"><span style="font-size: 24px;">&ldquo;다시 쓰는 구조&rdquo; &rarr; &ldquo;정리만 하는 구조&rdquo;</span></h3>
 
@@ -59,10 +52,6 @@ meta_description: "영상 하나로 블로그 글까지. 영상 스크립트 기
 		<p style="font-size: 18px; font-weight: 300; line-height: 2; margin-bottom: 18px;">예전에는 블로그를 따로 써야 한다는 압박이 있었는데, 지금은 초안이 이미 나오니까 &ldquo;여기 조금만 다듬으면 되겠네&rdquo; 정도로 바뀌었어요! 결과적으로 블로그도 더 자주 올리게 되고, 흐름도 끊기지 않게 됐습니다.</p>
 	</section>
 	<section style="margin-bottom: 60px;">
-
-		<h2 style="font-size: 24px; font-weight: 700; margin-bottom: 20px; line-height: 2;">
-			<br>
-		</h2>
 
 		<h2 style="font-size: 24px; font-weight: 700; margin-bottom: 20px; line-height: 2;">자동화 흐름</h2>
 		<div style="font-size: 18px; font-weight: 300; line-height: 1.8; margin-bottom: 18px;">
@@ -83,9 +72,6 @@ meta_description: "영상 하나로 블로그 글까지. 영상 스크립트 기
 
 		<h3 style="font-size: 20px; font-weight: 700; margin-bottom: 16px; line-height: 2;"><img src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/e5d4c8150ac34.png" class="fr-fil fr-dib" data-files="[object Object]"></h3>
 
-		<h3 style="font-size: 20px; font-weight: 700; margin-bottom: 16px; line-height: 2;">
-			<br>
-		</h3>
 
 		<h3 style="font-size: 20px; font-weight: 700; margin-bottom: 16px; line-height: 2;"><span style="font-size: 24px;">업무 자동화가 되면 뭐가 좋을까요?</span>
 			<br><span style="font-size: 16px; color: #666666;">그리고 왜, 트래커로 &quot;구조가 보이는&quot; 자동화가 중요한걸까요?</span></h3>
@@ -98,11 +84,6 @@ meta_description: "영상 하나로 블로그 글까지. 영상 스크립트 기
 			</ul>
 		</div>
 	</section>
-
-	<p style="font-size: 18px; font-weight: 300; line-height: 2; margin-bottom: 18px;">
-		<br>
-	</p>
-	<hr>
 
 	<p style="font-size: 18px; font-weight: 300; line-height: 2; margin-bottom: 18px;">콘텐츠 같은 경우는 미리 프롬프트를 작성해두더라도, 항상 만족스러운 글이 나오는게 아니라 걱정을 많이 했었는데요.
 		<br>프로세스가 이렇게 바뀌니까 부담감도, 투입되는 시간도 줄어서 개인적으로는 정말 만족스러운 자동화 중에 하나였습니다.</p>
