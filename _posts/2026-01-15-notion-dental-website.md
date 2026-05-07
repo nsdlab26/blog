@@ -2,7 +2,7 @@
 layout: post
 title: "[치과] 노션으로 구현한 간단한 웹사이트"
 slug: notion-dental-website
-category: 운영 시스템
+category: 웹페이지
 cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/d7d6629768799.png
 date: 2026-01-15
 meta_title: "노션으로 만든 간단한 치과 웹사이트"
