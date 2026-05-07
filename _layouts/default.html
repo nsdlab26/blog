@@ -56,9 +56,11 @@
   padding: 0;
   transform: translateX(-100%);
   transition: transform 0.3s ease;
-  visibility: hidden;
 }
-.mobile-nav.open { transform: translateX(0); visibility: visible; }
+.mobile-nav.open { transform: translateX(0); }
+@media (min-width: 769px) {
+  .mobile-nav { display: none; }
+}
 .mobile-nav-close {
   position: absolute; top: 14px; right: 14px;
   background: none; border: none; font-size: 20px;
