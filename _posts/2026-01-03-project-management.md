@@ -58,13 +58,11 @@ meta_description: "여러 프로젝트가 동시에 돌아갈 때, 물어보지 
 <section style="margin-bottom: 48px;">
 <h3 style="font-size: 18px; font-weight: bold; color: #1a1f27; margin: 0 0 12px 0;">Task by project: 프로젝트별 업무 현황</h3>
 <p style="font-size: 16px; line-height: 1.8; color: #444; margin-bottom: 16px;">프로젝트별로 진행되고 있는 현황 확인.<br />붉은색으로 되어있는 건 <span style="color: #e03e2d; font-weight: bold;">3일 안에 끝내야 하는 업무</span>들입니다.</p>
-<p style="font-size: 16px; line-height: 1.8; color: #444; margin-bottom: 16px;"> </p>
 <img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/175bd825b6350.png" alt="프로젝트별 업무 뷰" /></section>
 <section style="margin-bottom: 48px;">
 <h3 style="font-size: 18px; font-weight: bold; color: #1a1f27; margin: 0 0 12px 0;"> </h3>
 <h3 style="font-size: 18px; font-weight: bold; color: #1a1f27; margin: 0 0 12px 0;">Deadline: 업무 우선순위 파악</h3>
 <p style="font-size: 16px; line-height: 1.8; color: #444; margin-bottom: 16px;">이번 주에 해야 하는 업무 확인.</p>
-<p style="font-size: 16px; line-height: 1.8; color: #444; margin-bottom: 16px;"> </p>
 <img style="width: 100%; border-radius: 8px; margin-bottom: 32px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/b345492b6cd39.png" alt="데드라인 뷰" />
 <div style="background-color: #f5f4f8; padding: 24px 28px; border-radius: 12px; line-height: 1.7;">
 <p style="font-size: 16px; color: #1a1f27; margin: 0;"><span style="opacity: 0.8;">사람에게 물어봐야만 알 수 있던 구조에서</span><br /> <strong style="color: #8366ee;">이제는 관리자가 한눈에 보고 체계적으로 일을 진행할 수 있게 되었습니다 🙂</strong></p>
