@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[병원] 왜 우리 병원은 체계가 없는 것처럼 느껴질까?"
+title: "[치과] 노션으로 구현한 간단한 웹사이트"
 slug: notion-dental-website
 category: 운영 시스템
 cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/d7d6629768799.png
