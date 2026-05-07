@@ -18,7 +18,7 @@ meta_description: "엑셀 시트 대신 워크플로우로, 자동 계산되는 
 <li style="display: flex; align-items: start; gap: 10px;"><span style="color: #8366ee; font-weight: bold; flex-shrink: 0;">✔️</span> 개인별 사용 현황과 잔여분을 한눈에 확인</li>
 </ul>
 </blockquote>
-<p style="margin-bottom: 32px;"><a style="font-size: 16px; font-weight: bold; text-decoration: none; color: #8366ee;" href="https://nsdlab.imweb.me/module/?idx=8" target="_blank" rel="noopener noreferrer">👉 만들어진 시스템으로 바로 도입하기</a></p>
+<p style="margin-bottom: 32px;"><a style="font-size: 16px; font-weight: bold; text-decoration: none; color: #8366ee;" href="https://www.nsdlab.kr/main/?idx=8" target="_blank" rel="noopener noreferrer">👉 만들어진 시스템으로 바로 도입하기</a></p>
 <section style="margin-bottom: 60px;">
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;">이 시스템은 실제로 만들어 몇 년간 사용한 사례입니다.<br /> 모든 체계를 갖추기 어려운 소규모 조직에 추천하며, 다음과 같은 경우 전문 HR 솔루션을 검토하는 것이 적합할 수 있습니다.</p>
 <ul style="list-style: none; padding-left: 15px; margin: 0; font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27;">
