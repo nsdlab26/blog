@@ -10,7 +10,8 @@ meta_description: "병원에 내부 운영 시스템이 필요한 이유. 정보
 ---
 
 <blockquote style="background-color: #f5f4f8; padding: 25px 30px; border-left: 5px solid #8366EE; border-radius: 8px; margin: 0 0 40px 0; border-top: none; border-right: none; border-bottom: none; quotes: none;">
-<p style="font-size: 16px; line-height: 1.8; color: #1a1f27; margin: 0; font-weight: 400;">운영 시스템이 없으면 정보는 흩어지고, 체계는 없고, 병원 운영 전반을 한눈에 보기 어려워져요! EMR이 의료 기록을 담당한다면, <strong style="font-weight: bold;">운영 시스템은 병원이 어떻게 돌아가는지를 보여주는 구조</strong>입니다.</p>
+<p style="font-size: 16px; line-height: 1.8; color: #1a1f27; margin: 0; font-weight: 400;">운영 시스템이 없으면 정보는 흩어지고, 체계는 없고, 병원 운영 전반을 한눈에 보기 어려워져요!</p>
+<p style="font-size: 16px; line-height: 1.8; color: #1a1f27; margin: 0; font-weight: 400;">EMR이 의료 기록을 담당한다면, <strong style="font-weight: bold;">운영 시스템은 병원이 어떻게 돌아가는지를 보여주는 구조</strong>입니다.</p>
 </blockquote>
 <section style="margin-bottom: 60px;">
 <h2 style="font-size: 22px; font-weight: bold; color: #1a1f27; margin: 0 0 20px 0; line-height: 1.5;">병원에 운영 시스템이 필요한 이유</h2>
@@ -80,11 +81,9 @@ meta_description: "병원에 내부 운영 시스템이 필요한 이유. 정보
 <section style="margin-bottom: 60px;">
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; color: #1a1f27; line-height: 1.5;"> </h2>
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; color: #1a1f27; line-height: 1.5;">이런 운영 구조를 만들 수 있어요</h2>
-<p style="font-size: 16px; font-weight: 400; color: #1a1f27; line-height: 1.8;">노션·구글 워크스페이스를 활용해 구조화와 자동화를 적용하면,<br /> 병원 운영에 필요한 대부분의 영역을 하나의 흐름으로 관리할 수 있어요.</p>
+<p style="font-size: 16px; font-weight: 400; color: #1a1f27; line-height: 1.8;">노션·구글 워크스페이스를 활용해 구조화와 자동화를 적용하면,<br /> 병원 운영에 필요한 대부분의 영역을 하나의 흐름으로 관리할 수 있어요.<br /><br /><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/7a0291bb69f45.png" alt="" /></p>
 </section>
 <section style="margin-bottom: 40px;">
-<p style="line-height: 1.8; font-size: 16px; color: #1a1f27; font-weight: 400; margin-bottom: 20px;"><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/7a0291bb69f45.png" alt="" /></p>
-<p style="line-height: 1.8; font-size: 16px; color: #1a1f27; font-weight: 400; margin-bottom: 20px;"> </p>
 <p style="line-height: 1.8; font-size: 16px; color: #1a1f27; font-weight: 400; margin-bottom: 20px;">사실 운영 현황을 한눈에 보고 싶다는 고민은 어떤 조직이든 공통적으로 겪는 부분인 것 같습니다.</p>
 <p style="line-height: 1.8; font-size: 16px; color: #1a1f27; font-weight: 400; margin-bottom: 20px;">체계가 없다고 느껴지신다면, 운영 시스템을 통해 구조를 개선하는 것도 좋은 방법이 될 수 있어요!</p>
 </section>
