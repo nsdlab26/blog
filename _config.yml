@@ -5,6 +5,7 @@ baseurl: ""
 permalink: /:slug/
 
 paginate: 9
+paginate_path: "/page:num/"
 
 plugins:
   - jekyll-feed
