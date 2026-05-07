@@ -3,7 +3,7 @@ layout: post
 title: "콘텐츠 업로드 시간 90% 단축! 버튼 하나로 릴스·쇼츠 배포, 기록 관리 "
 slug: sns-automation
 category: 운영 시스템
-cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/6162e41f26bd2.png
+cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/d42a19621def8.png
 date: 2026-03-20
 meta_title: "콘텐츠 업로드 시간 90% 단축! 버튼 하나로 릴스·쇼츠 배포, 기록 관리 "
 meta_description: "영상 하나로 블로그 글까지. 영상 스크립트 기반 자동화로 콘텐츠 생산성 높이기"
