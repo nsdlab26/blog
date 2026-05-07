@@ -9,7 +9,6 @@ meta_title: "신규 서비스 & 고객 모집용 서비스 소개서"
 meta_description: "신규 서비스 런칭 시 미팅, 링크 공유, 광고 랜딩에 바로 활용할 수 있는 노션 소개서 제작 사례"
 ---
 
-<p>--- layout: post title: "신규 서비스 &amp; 고객 모집용 서비스 소개서" slug: service-website category: 웹페이지 cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/e13380868b005.png date: 2026-02-10 ---</p>
 <div style="font-family: 'Pretendard',sans-serif; color: #1a1f27; letter-spacing: -0.01em;">
 <blockquote style="background-color: #f5f4f8; padding: 24px 28px; border-left: 5px solid #8366EE; border-radius: 8px; margin: 0 0 40px 0; border-top: none; border-right: none; border-bottom: none; quotes: none;">
 <h3 style="font-size: 18px; font-weight: bold; color: #8366ee; margin: 0 0 12px 0; display: flex; align-items: center; gap: 8px;">💡 핵심 포인트</h3>
