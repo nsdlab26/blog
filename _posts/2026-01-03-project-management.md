@@ -52,7 +52,7 @@ meta_description: "여러 프로젝트가 동시에 돌아갈 때, 물어보지 
 </div>
 </div>
 <p style="font-size: 16px; font-weight: bold; text-align: center; color: #1a1f27; margin: 32px 0;"> </p>
-<p style="font-size: 16px; font-weight: bold; text-align: center; color: #1a1f27; margin: 32px 0;">그 중에 가장 많이 보게 되는 건 이 두개 뷰라고 하시더라구요!</p>
+<p style="font-size: 16px; font-weight: bold; text-align: center; color: #1a1f27; margin: 32px 0;">가장 많이 보게 되는 건 이 두개라고 하시더라구요!</p>
 <p style="font-size: 16px; font-weight: bold; text-align: center; color: #1a1f27; margin: 32px 0;"> </p>
 </section>
 <section style="margin-bottom: 48px;">
