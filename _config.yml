@@ -5,6 +5,7 @@ baseurl: ""
 permalink: /:slug/
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 markdown: kramdown
 highlighter: rouge
 exclude:
