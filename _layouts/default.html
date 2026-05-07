@@ -6,6 +6,7 @@
 <title>{{ page.meta_title | default: page.title | append: ' | NSD Lab' }}</title>
 <meta name="description" content="{{ page.meta_description | default: page.description | default: site.description }}">
 {% if page.cover %}<meta property="og:image" content="{{ page.cover | absolute_url }}">{% endif %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; color: #363636; font-size: 15px; line-height: 1.6; }
@@ -14,45 +15,75 @@
   /* HEADER */
   header {
     position: sticky; top: 0; z-index: 100;
-    background: #fff;
-    border-bottom: 1px solid #E7E7E7;
-    height: 68px;
-    display: flex; align-items: center;
-    padding: 0 30px;
-    justify-content: flex-start;
+    background: #fff; border-bottom: 1px solid #E7E7E7;
+    height: 69px; display: flex; align-items: center;
+    padding: 0 30px; justify-content: flex-start;
   }
-  .logo img { height: 50px; }
+  .logo img { height: 32px; }
+  .mobile-logo { display: none; }
+  .hamburger { display: none; }
+
   nav { margin-left: 40px; display: flex; gap: 32px; align-items: center; }
   nav .nav-item { position: relative; height: 69px; display: flex; align-items: center; }
-  nav .nav-item > a { font-size: 17px; color: #363636; font-weight: 700; padding: 4px 0; display: block; }
+  nav .nav-item > a { font-size: 15px; color: #363636; font-weight: 700; padding: 4px 0; display: block; }
   nav .nav-item > a:hover { color: #7c5cfc; }
   nav .nav-item > a.active { color: #363636; }
 
-  /* DROPDOWN - 갭을 없애고 패딩으로 처리해서 마우스가 끊기지 않게 */
   .dropdown-menu {
     display: none; position: absolute;
-    top: 100%; left: 0;
-    padding-top: 8px; /* 헤더 하단과의 gap을 패딩으로 처리 */
-    z-index: 200;
-    min-width: 180px;
+    top: 100%; left: 0; padding-top: 8px;
+    z-index: 200; min-width: 180px;
   }
   .dropdown-menu-inner {
     background: #fff; border: 1px solid #eee;
-    border-radius: 6px; box-shadow: 0 4px 16px rgba(0,0,0,0.10);
-    padding: 6px 0;
+    border-radius: 6px; box-shadow: 0 4px 16px rgba(0,0,0,0.10); padding: 6px 0;
   }
   .nav-item:hover .dropdown-menu { display: block; }
   .dropdown-menu a { display: block; padding: 10px 18px; font-size: 14px; color: #363636; white-space: nowrap; font-weight: 500; }
-  .dropdown-menu a:hover { color: #363636; background: #D8D8D8; }
+  .dropdown-menu a:hover { background: #D8D8D8; }
 
-  /* HERO */
-  .hero { background: #f5f4f8; padding: 40px 0; }
-  .hero-inner { max-width: 1100px; margin: 0 auto; padding: 0 30px; }
-  .hero-label {
-    color: #8260F1; font-size: 15px; font-weight: 750;
-    letter-spacing: 2px; margin-bottom: 14px;
+  /* MOBILE NAV */
+  .mobile-nav-overlay {
+    display: none; position: fixed; inset: 0;
+    background: rgba(0,0,0,0.5); z-index: 998;
   }
-  .hero-title { font-size: 55px; font-weight: 700; color: #363636; line-height: 1.2; }
+  .mobile-nav-overlay.open { display: block; }
+  .mobile-nav {
+    position: fixed; top: 0; left: 0;
+    width: 75%; max-width: 300px; height: 100vh;
+    background: #fff; z-index: 999;
+    padding: 0;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+  .mobile-nav.open { transform: translateX(0); }
+  .mobile-nav-close {
+    position: absolute; top: 14px; right: 14px;
+    background: none; border: none; font-size: 20px;
+    color: #363636; cursor: pointer;
+  }
+  .mobile-nav-list { list-style: none; padding-top: 56px; }
+  .mobile-nav-list li { border-bottom: 1px solid #f0f0f0; }
+  .mobile-nav-list > li > a {
+    display: block; padding: 16px 24px;
+    font-size: 15px; font-weight: 600; color: #1a1a1a;
+  }
+  .mobile-nav-list > li > a:active { color: #7c5cfc; }
+  .mobile-nav-toggle {
+    display: flex; justify-content: space-between; align-items: center;
+    width: 100%; padding: 16px 24px;
+    font-size: 15px; font-weight: 600; color: #1a1a1a;
+    background: none; border: none; cursor: pointer; text-align: left;
+  }
+  .mobile-nav-toggle .arrow { font-size: 11px; transition: transform 0.2s; color: #888; }
+  .mobile-nav-toggle.open .arrow { transform: rotate(180deg); }
+  .mobile-sub { display: none; background: #fafafa; }
+  .mobile-sub.open { display: block; }
+  .mobile-sub a {
+    display: block; padding: 12px 24px 12px 36px;
+    font-size: 14px; color: #555; font-weight: 500;
+    border-top: 1px solid #f0f0f0;
+  }
 
   /* CTA */
   .cta-section {
@@ -61,8 +92,7 @@
   }
   .cta-section::before {
     content: ''; position: absolute; inset: 0;
-    background: linear-gradient(180deg, #9b7ff0 0%, #7c5cef 100%);
-    z-index: 0;
+    background: linear-gradient(180deg, #9b7ff0 0%, #7c5cef 100%); z-index: 0;
   }
   .cta-section > * { position: relative; z-index: 1; }
   .cta-section h2 { font-size: 30px; font-weight: 700; color: #fff; margin-bottom: 12px; line-height: 1.2; }
@@ -106,13 +136,43 @@
   .footer-links a:hover { color: #fff; }
   .footer-copy { color: #555; font-size: 12px; line-height: 1.8; text-align: right; }
 
+  /* MOBILE */
+  @media (max-width: 768px) {
+    header { padding: 0 16px; height: 56px; justify-content: space-between; }
+    .logo { display: none; }
+    .mobile-logo { display: block; position: absolute; left: 50%; transform: translateX(-50%); }
+    .mobile-logo img { height: 28px; }
+    nav { display: none; }
+    .hamburger {
+      display: flex; flex-direction: column; justify-content: center; gap: 5px;
+      background: none; border: none; cursor: pointer; padding: 4px; z-index: 1;
+    }
+    .hamburger span { display: block; width: 22px; height: 2px; background: #363636; border-radius: 2px; }
+    .cta-section { padding: 48px 20px; }
+    .cta-section h2 { font-size: 22px; }
+    .cta-section p { font-size: 15px; margin-bottom: 24px; }
+    .cta-buttons { flex-direction: column; align-items: center; }
+    .btn-consult, .btn-kakao { width: 100%; max-width: 280px; text-align: center; }
+    footer { padding: 32px 0 24px; }
+    .footer-inner { flex-direction: column; gap: 24px; padding: 0 20px; }
+    .footer-right { align-items: flex-start; }
+    .footer-links { text-align: left; }
+    .footer-copy { text-align: left; }
+  }
+
   {{ content_css }}
 </style>
 </head>
 <body>
 
 <header>
+  <button class="hamburger" id="hamburgerBtn" aria-label="메뉴">
+    <span></span><span></span><span></span>
+  </button>
   <a href="https://www.nsdlab.kr/index" class="logo">
+    <img src="https://i.ibb.co/rRsfN2x9/nsdlab-logo.png" alt="NSD Lab">
+  </a>
+  <a href="https://www.nsdlab.kr/index" class="mobile-logo">
     <img src="https://i.ibb.co/rRsfN2x9/nsdlab-logo.png" alt="NSD Lab">
   </a>
   <nav>
@@ -131,6 +191,26 @@
     <div class="nav-item"><a href="/" class="active">실제 사례</a></div>
   </nav>
 </header>
+
+<div class="mobile-nav-overlay" id="mobileOverlay"></div>
+<nav class="mobile-nav" id="mobileNav">
+  <button class="mobile-nav-close" id="mobileClose">✕</button>
+  <ul class="mobile-nav-list">
+    <li><a href="https://www.nsdlab.kr/about">소개</a></li>
+    <li>
+      <button class="mobile-nav-toggle" id="systemToggle">
+        시스템·자동화 <span class="arrow">▼</span>
+      </button>
+      <div class="mobile-sub" id="systemSub">
+        <a href="https://www.nsdlab.kr/ops_system">운영 시스템</a>
+        <a href="https://www.nsdlab.kr/workflow">업무 프로세스 자동화</a>
+      </div>
+    </li>
+    <li><a href="https://www.nsdlab.kr/businessweb">웹페이지</a></li>
+    <li><a href="https://www.nsdlab.kr/store">스토어</a></li>
+    <li><a href="/">실제 사례</a></li>
+  </ul>
+</nav>
 
 {{ content }}
 
@@ -176,6 +256,34 @@
     </div>
   </div>
 </footer>
+
+<script>
+  const hamburgerBtn = document.getElementById('hamburgerBtn');
+  const mobileNav = document.getElementById('mobileNav');
+  const mobileOverlay = document.getElementById('mobileOverlay');
+  const mobileClose = document.getElementById('mobileClose');
+  const systemToggle = document.getElementById('systemToggle');
+  const systemSub = document.getElementById('systemSub');
+
+  function openMenu() {
+    mobileNav.classList.add('open');
+    mobileOverlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeMenu() {
+    mobileNav.classList.remove('open');
+    mobileOverlay.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  hamburgerBtn.addEventListener('click', openMenu);
+  mobileClose.addEventListener('click', closeMenu);
+  mobileOverlay.addEventListener('click', closeMenu);
+  systemToggle.addEventListener('click', () => {
+    systemSub.classList.toggle('open');
+    systemToggle.classList.toggle('open');
+  });
+</script>
 
 </body>
 </html>
