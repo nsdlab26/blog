@@ -4,7 +4,7 @@ title: "[병원] 왜 우리 병원은 체계가 없는 것처럼 느껴질까?"
 slug: hospital-ops-system
 category: 운영 시스템
 cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/20e98978c8206.png
-date: 2026-01-010
+date: 2026-01-10
 meta_title: "왜 우리 병원은 체계가 없는 것처럼 느껴질까?"
 meta_description: "병원에 내부 운영 시스템이 필요한 이유. 정보는 흩어지고, 체계는 없고, 운영 전반이 안보인다고 느껴질 때"
 ---
