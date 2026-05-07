@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ page.meta_title | default: page.title | append: ' | NSD Lab' }}</title>
 <meta name="description" content="{{ page.meta_description | default: page.description | default: site.description }}">
+<meta name="naver-site-verification" content="c8be310b11e9397aa454ec56d960d3b90383b6f6" />
 {% if page.cover %}<meta property="og:image" content="{{ page.cover | absolute_url }}">{% endif %}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
 <style>
@@ -48,27 +49,23 @@
     background: rgba(0,0,0,0.5); z-index: 9998;
   }
   .mobile-nav-overlay.open { display: block; }
-.mobile-nav-overlay.open { display: block; }
-.mobile-nav {
-  position: fixed; top: 0; left: 0;
-  width: 75%; max-width: 300px; height: 100vh;
-  background: #fff; z-index: 9999;
-  padding: 0;
-  transform: translateX(-100%);
-  transition: transform 0.3s ease;
-}
-.mobile-nav.open { transform: translateX(0); }
-@media (min-width: 769px) {
-  .mobile-nav { display: none; }
-}
-.mobile-nav-close {
-  position: absolute; top: 14px; right: 14px;
-  background: none; border: none; font-size: 20px;
-  color: #363636; cursor: pointer;
-}
-@media (min-width: 769px) {
-  .mobile-nav-overlay { display: none !important; }
-}
+  .mobile-nav {
+    position: fixed; top: 0; left: -300px;
+    width: 75%; max-width: 300px; height: 100vh;
+    background: #fff; z-index: 9999;
+    padding: 0;
+    transition: left 0.3s ease;
+  }
+  .mobile-nav.open { left: 0; }
+  @media (min-width: 769px) {
+    .mobile-nav { display: none; }
+    .mobile-nav-overlay { display: none !important; }
+  }
+  .mobile-nav-close {
+    position: absolute; top: 14px; right: 14px;
+    background: none; border: none; font-size: 20px;
+    color: #363636; cursor: pointer;
+  }
   .mobile-nav-list { list-style: none; padding-top: 56px; }
   .mobile-nav-list li { border-bottom: 1px solid #f0f0f0; }
   .mobile-nav-list > li > a {
@@ -200,7 +197,7 @@
 </header>
 
 <div class="mobile-nav-overlay" id="mobileOverlay"></div>
-<nav class="mobile-nav" id="mobileNav">
+<div class="mobile-nav" id="mobileNav">
   <button class="mobile-nav-close" id="mobileClose">✕</button>
   <ul class="mobile-nav-list">
     <li><a href="https://www.nsdlab.kr/about">소개</a></li>
@@ -217,7 +214,7 @@
     <li><a href="https://www.nsdlab.kr/store">스토어</a></li>
     <li><a href="/">실제 사례</a></li>
   </ul>
-</nav>
+</div>
 
 {{ content }}
 
