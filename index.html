@@ -99,7 +99,8 @@ title: 실제 사례
 
   <!-- FILTER TABS -->
   <div class="filter-tabs">
-    <button class="filter-tab active" data-cat="운영 시스템">운영 시스템</button>
+    <button class="filter-tab active" data-cat="전체">전체</button>
+    <button class="filter-tab" data-cat="운영 시스템">운영 시스템</button>
     <button class="filter-tab" data-cat="업무 프로세스 자동화">업무 프로세스 자동화</button>
     <button class="filter-tab" data-cat="웹페이지">웹페이지</button>
   </div>
@@ -135,11 +136,5 @@ title: 실제 사례
         card.style.display = (cat === '전체' || card.dataset.cat === cat) ? '' : 'none';
       });
     });
-  });
-document.addEventListener("DOMContentLoaded", function() {
-    const defaultTab = document.querySelector('[data-cat="운영 시스템"]');
-    if (defaultTab) {
-      defaultTab.click(); // '운영 시스템' 버튼을 강제로 클릭함
-    }
   });
 </script>
