@@ -62,45 +62,47 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 <div style="flex:1; min-width:200px; background:#fff; border:1px solid #EAEAEF; border-radius:12px; padding:24px 20px; position:relative;"><div style="font-size:14px; font-weight:600; color:#1E1B2E; margin-bottom:12px;">누락 리스크</div><div style="display:flex; align-items:center; gap:8px;"><span style="font-size:13px; font-weight:500; color:#9B9BA3;">기억 의존</span><span style="font-size:13px; color:#8366EE;">→</span><span style="font-size:18px; font-weight:800; color:#8366EE;">구조로 관리</span></div></div>
 </div>
 <p style="font-size: 11px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: #1C1C22; margin-bottom: 14px;">핵심 프로세스</p>
-<div style="background-color: #fcfcfc; border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; border: 1px solid #EAEAEF;" markdown="0">
-<p style="font-size: 16px; font-weight: bold; color: #1a1f27; margin-top: 0; margin-bottom: 16px;">🔄 업무 방식이 이렇게 달라져요</p>
-<div style="margin-bottom: 20px;">
-<p style="font-size: 15px; font-weight: bold; color: #666; margin: 0 0 8px 0;">[기존 방식] 사람의 기억과 손을 거치는 수동 작업</p>
-<p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 0;">담당자가 직접 대상자와 일정을 확인한 뒤, 이메일이나 메신저로 개별 요청을 보냅니다. 이후 고객사에서 회신이 오면 엑셀 현황판을 <strong>수동으로 업데이트</strong>하고, 제출하지 않은 곳을 일일이 찾아내어 <strong>직접 리마인드 연락</strong>을 돌려야 합니다.</p>
-</div>
-<div>
-<p style="font-size: 15px; font-weight: bold; color: #8366ee; margin: 0 0 8px 0;">[자동화 도입 후] 시스템이 알아서 챙기는 워크플로우</p>
-<p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 0;">정해진 시기가 되면 대상자 생성, <strong>요청 메시지</strong>가 일괄 발송됩니다. 거래처에서 안내된 링크를 통해 자료를 제출하면, <strong>대시보드 제출 현황이 실시간으로 업데이트</strong>됩니다. 마감 전까지 제출하지 않은 고객사에게만 <strong>시스템이 알아서 리마인드 메시지</strong>를 보내주어 불필요한 커뮤니케이션 리소스를 줄일 수 있습니다.</p>
-</div>
-</div>
-
 <div style="width: 100%; margin: 20px 0 40px 0; text-align: center;">
 <img src="https://i.ibb.co/5hgzRG7G/2026-05-25-204359.png" alt="정기 자료 요청 취합 자동화 프로세스 변화" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #EAEAEF;" />
  <p style="font-size: 14px; color: #555; margin-top: 15px; margin-bottom: 40px; text-align: left;">
   <span style="color: #8366EE;">●</span> 자동화 &nbsp;&nbsp; <span style="color: #C7C5D4;">○</span> 담당자 확인
 </p>
 </div>
+<div style="background-color: #fcfcfc; border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; border: 1px solid #EAEAEF;" markdown="0">
+<p style="font-size: 16px; font-weight: bold; color: #1a1f27; margin-top: 0; margin-bottom: 16px;">🔄 업무 방식이 이렇게 달라져요</p>
+<div style="margin-bottom: 20px;">
+    <p style="font-size: 15px; font-weight: bold; color: #666; margin: 0 0 8px 0;">[기존 방식] 사람의 기억과 손을 거치는 수동 작업</p>
+    <p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 0;">담당자가 직접 대상자와 일정을 확인한 뒤, 이메일이나 메신저로 개별 요청을 보냅니다.</p>
+    <p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 16px 0 0 0;">이후 고객사에서 회신이 오면 엑셀 현황판을 <strong>수동으로 업데이트</strong>하고, 제출하지 않은 곳을 일일이 찾아내어 <strong>직접 리마인드 연락</strong>을 돌려야 합니다.</p>
+  </div>
+
+  <div>
+    <p style="font-size: 15px; font-weight: bold; color: #8366ee; margin: 0 0 8px 0;">[자동화 도입 후] 시스템이 알아서 챙기는 워크플로우</p>
+    <p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 0;">정해진 시기가 되면 대상자 생성, <strong>요청 메시지</strong>가 일괄 발송됩니다. 거래처에서 안내된 링크를 통해 자료를 제출하면, <strong>대시보드 제출 현황이 실시간으로 업데이트됩니다.</strong></p>
+    <p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 16px 0 0 0;">마감 전까지 제출하지 않은 고객사에게만 <strong>시스템이 알아서 리마인드 메시지</strong>를 보내주어 불필요한 커뮤니케이션 리소스를 줄일 수 있습니다.</p>
+  </div>
+</div>
+
+
 </section>
 
 <section style="margin-bottom: 80px;">
-<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5;">적용 업종 예시</h2>
-<p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 24px;">반복적으로 자료를 요청하고 취합하는 구조라면 업종 관계없이 적용할 수 있습니다.</p>
-<div style="background-color: #f5f4f8; border-radius: 12px; padding: 24px 28px; margin-top: 16px;">
-<ul style="list-style: none; padding-left: 0; margin: 0;">
-<li style="display: flex; align-items: start; gap: 10px; color: #1a1f27; margin-bottom: 20px; font-size: 16px; line-height: 1.6; font-weight: 400;">
-<span style="color: #8366ee; font-weight: bold; margin-top: 2px;">🏢 세무·회계</span>
-<div>신고 시즌마다 고객 자료 요청, 취합, 누락 추적이 반복되며 끝없는 커뮤니케이션</div>
-</li>
-<li style="display: flex; align-items: start; gap: 10px; color: #1a1f27; margin-bottom: 20px; font-size: 16px; line-height: 1.6; font-weight: 400;">
-<span style="color: #8366ee; font-weight: bold; margin-top: 2px;">🤝 노무법인</span>
-<div>급여, 입퇴사, 4대보험 관련 서류 등 매번 동일한 사항을 고객사마다 요청</div>
-</li>
-<li style="display: flex; align-items: start; gap: 10px; color: #1a1f27; font-size: 16px; line-height: 1.6; font-weight: 400;">
-<span style="color: #8366ee; font-weight: bold; margin-top: 2px;">🏬 프랜차이즈</span>
-<div>가맹점별 매출·정산 자료를 매번 직접 연락해 하나씩 취합</div>
-</li>
-</ul>
-</div>
+  <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5;">적용 업종 예시</h2>
+  <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 24px;">반복적으로 자료를 요청하고 취합하는 구조라면 업종 관계없이 적용할 수 있습니다.</p>
+  
+  <div style="background-color: #f5f4f8; border-radius: 12px; padding: 24px 28px; margin-top: 16px;">
+    <ul style="list-style: none; padding-left: 0; margin: 0;">
+      <li style="margin-bottom: 16px; font-size: 16px; line-height: 1.6; color: #1a1f27;">
+        <span style="font-weight: bold; color: #8366ee;">🏢 세무·회계</span> &nbsp; 신고 시즌마다 고객 자료 요청, 취합, 누락 추적이 반복되며 끝없는 커뮤니케이션
+      </li>
+      <li style="margin-bottom: 16px; font-size: 16px; line-height: 1.6; color: #1a1f27;">
+        <span style="font-weight: bold; color: #8366ee;">🤝 노무법인</span> &nbsp; 급여, 입퇴사, 4대보험 관련 서류 등 매번 동일한 사항을 고객사마다 요청
+      </li>
+      <li style="margin-bottom: 16px; font-size: 16px; line-height: 1.6; color: #1a1f27;">
+        <span style="font-weight: bold; color: #8366ee;">🏬 프랜차이즈</span> &nbsp; 가맹점별 매출·정산 자료를 매번 직접 연락해 하나씩 취합
+      </li>
+    </ul>
+  </div>
 </section>
 
 </div>
