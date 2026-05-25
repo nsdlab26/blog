@@ -8,8 +8,6 @@ plugins:
   - jekyll-sitemap
 markdown: kramdown
 highlighter: rouge
-kramdown:
-  parse_block_html: true
 exclude:
   - README.md
 titles_from_headings:
