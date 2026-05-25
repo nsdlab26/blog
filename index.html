@@ -136,4 +136,11 @@ title: 실제 사례
       });
     });
   });
+document.addEventListener("DOMContentLoaded", function() {
+    const defaultTab = document.querySelector('[data-cat="운영 시스템"]');
+    if (defaultTab) {
+      defaultTab.click(); // '운영 시스템' 버튼을 강제로 클릭함
+    }
+  });
+</script>
 </script>
