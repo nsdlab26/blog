@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "정기 자료 요청·추적 자동화"
+title: "정기 자료 요청·추적 자동화 ㅡ 시기별로 자료를 요청하고, 누락 없이 취합"
 slug: data-collection-automation
 category: 업무 프로세스 자동화
 cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/8fd747d24aa7c.png
@@ -12,16 +12,15 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.17.0/dist/tabler-icons.min.css" />
 
 <div style="font-family: 'Pretendard', sans-serif; color: #1a1f27; letter-spacing: -0.01em;">
-<blockquote style="background-color: #f5f4f8; padding: 25px 30px; border-left: 5px solid #8366EE; border-radius: 8px; margin: 0 0 40px 0; border: none; quotes: none;">
+<div style="background-color: #f5f4f8; padding: 25px 30px; border-left: 5px solid #8366EE; border-radius: 8px; margin: 0 0 40px 0;">
 <h3 style="font-size: 18px; font-weight: bold; color: #8366ee; margin-top: 0px; margin-bottom: 15px; display: flex; align-items: center; gap: 8px; line-height: 1.4;"><span style="font-size: 20px;">💡</span> 핵심 포인트</h3>
 <ul style="list-style: none; padding-left: 0; margin-bottom: 0; font-size: 16px; font-weight: 400; line-height: 1.7; color: #1a1f27;">
 <li style="display: flex; align-items: start; gap: 10px; margin-bottom: 10px;"><span style="color: #8366ee; font-weight: bold;">✔️</span> 자료 요청·리마인드·취합까지 한 번에</li>
 <li style="display: flex; align-items: start; gap: 10px; margin-bottom: 10px;"><span style="color: #8366ee; font-weight: bold;">✔️</span> 시스템과 자동화로 제출 여부와 진행 현황이 자동으로 업데이트됩니다.</li>
 <li style="display: flex; align-items: start; gap: 10px;"><span style="color: #8366ee; font-weight: bold;">✔️</span> 담당자는 검토, 핵심 업무, 예외 처리에만 집중할 수 있습니다.</li>
 </ul>
-</blockquote>
+</div>
 <br>
-<section style="margin-bottom: 60px;">
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">세무·노무·프랜차이즈처럼 여러 고객사나 가맹점을 다루는 업종에는 공통점이 하나 있습니다. 주기적으로 자료를 요청하고, 취합하고, 누락을 확인하는 일이 반복된다는 거예요.</p>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">시기마다 거래처별로 자료 목록을 정리하고, 일일이 연락하고, 제출 여부를 확인하고, 안 된 곳엔 다시 연락하는 흐름. 건수가 늘어날수록 이 과정이 점점 무거워집니다.</p> 
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">거래처가 늘어날수록 업무량도 비례해서 커지고, 결국 관리 리소스에 대한 부담 때문에 확장할 수 있는 상황에서도 쉽게 결정하지 못하게 되기도 합니다.</p> 
@@ -33,9 +32,7 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 <li style="display: flex; align-items: start; gap: 10px; margin-bottom: 12px;">🚨 정신없을 땐 중요한 업무가 빠지거나 누락돼요.</li>
 <li style="display: flex; align-items: start; gap: 10px;">⏳ 중요한 일보다 확인하고 정리하는 일에 더 많은 시간을 쓰고 있어요.</li>
 </ul>
-</section>
 <br>
-<section style="margin-bottom: 60px;">
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5;">반복 업무인데도 계속 리소스가 커지는 이유</h2>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">규모가 커질수록 업무보다 운영 관리에 더 많은 시간이 들어가기 시작합니다.</p>
 <div style="background-color: #f5f4f8; padding: 20px 25px; border-radius: 12px; margin-bottom: 20px; color: #1a1f27; font-style: italic; line-height: 1.8;">
@@ -51,9 +48,7 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">이런 내용을 담당자가 직접 하나하나 확인하고 거래처에 물어보며 관리하다 보니, 거래처 수가 늘어날수록 업무량도 비례해서 커지게 됩니다.</p>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">처음에는 엑셀과 메신저만으로도 운영할 수 있지만, 건수가 많아질수록 반복 확인과 리마인드에 쓰는 시간이 훨씬 커집니다. 결국 중요한 검토 업무보다 "확인하고 정리하는 일"에 더 많은 시간을 쓰게 되는거죠.</p>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">그리고 이런 구조에서는 담당자가 놓치거나 자리를 비우는 순간, 바로 누락으로 이어지기 쉽습니다.</p>
-</section>
 <br>
-<section style="margin-bottom: 60px;">
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5;">자동화 워크플로우로 어떻게 달라질 수 있나요?</h2>
 <div class="kc-section-label">핵심 변화</div>
 <div class="kc-grid">
@@ -263,9 +258,7 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 </div>
 </div>
 </div>
-</section>
 <br>
-<section style="margin-bottom: 40px;">
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5;">적용 업종 예시</h2>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 24px;">반복적으로 자료를 요청하고 취합하는 구조라면 업종 관계없이 적용할 수 있습니다.</p>
 <div style="background-color: #f5f4f8; border-radius: 12px; padding: 24px 28px;">
@@ -284,10 +277,9 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 </li>
 </ul>
 </div>
-</section>
 </div>
 
-<style>
+<style markdown="0">
   .kc-section-label { font-size: 11px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: #1C1C22; margin-bottom: 14px; }
   .kc-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: #EAEAEF; border: 1px solid #EAEAEF; border-radius: 12px; overflow: hidden; margin-bottom: 32px; }
   .kc-card { background: #fff; padding: 20px 18px 22px; display: flex; flex-direction: column; gap: 12px; position: relative; padding-top: 28px; }
