@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "정기 자료 요청·추적 자동화"
+title: "반복되는 자료 수합 업무, 80% 단축하는 구조"
 slug: data-collection-automation
 category: 업무 프로세스 자동화
-cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/8fd747d24aa7c.png
+cover: [https://cdn.imweb.me/upload/S20260317e48e798a6d243/8fd747d24aa7c.png](https://i.ibb.co/67KV350X/33.png)
 date: 2026-05-25
 meta_title: "정기 자료 요청·추적 자동화 ㅡ 시기별로 자료를 요청하고, 누락 없이 취합"
 meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 담당자의 기억이 아닌 자동화와 시스템으로 누락 없이 관리하는 워크플로우 설계."
@@ -35,7 +35,7 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 </section>
 
 <section style="margin-bottom: 80px;">
-<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5;">반복 업무인데도 계속 리소스가 커지는 이유</h2>
+<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5;">반복 업무, 계속 리소스가 커지는 이유</h2>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">규모가 커질수록 업무보다 운영 관리에 더 많은 시간이 들어가기 시작합니다.</p>
 <div style="background-color: #f5f4f8; padding: 20px 25px; border-radius: 12px; margin-bottom: 20px; color: #1a1f27; font-style: italic; line-height: 1.8;">
 <span style="font-size: 16px; font-weight: 400;">"시기가 되면 연락할 거래처 리스트를 만들고, 일일이 연락해서 자료 목록을 안내하고, 제출 여부를 하나씩 확인해요. 안 온 곳은 다시 연락하고, 부족한 서류가 있으면 또 요청하고.<br />건수가 30개만 넘어도 이것만으로 며칠이 걸려요."</span>
