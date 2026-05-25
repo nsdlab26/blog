@@ -12,6 +12,7 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.17.0/dist/tabler-icons.min.css" />
 
 <div style="font-family: 'Pretendard', sans-serif; color: #1a1f27; letter-spacing: -0.01em;">
+
 <div style="background-color: #f5f4f8; padding: 25px 30px; border-left: 5px solid #8366EE; border-radius: 8px; margin: 0 0 40px 0;">
 <h3 style="font-size: 18px; font-weight: bold; color: #8366ee; margin-top: 0px; margin-bottom: 15px; display: flex; align-items: center; gap: 8px; line-height: 1.4;"><span style="font-size: 20px;">💡</span> 핵심 포인트</h3>
 <ul style="list-style: none; padding-left: 0; margin-bottom: 0; font-size: 16px; font-weight: 400; line-height: 1.7; color: #1a1f27;">
@@ -20,6 +21,7 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 <li style="display: flex; align-items: start; gap: 10px;"><span style="color: #8366ee; font-weight: bold;">✔️</span> 담당자는 검토, 핵심 업무, 예외 처리에만 집중할 수 있습니다.</li>
 </ul>
 </div>
+
 <section style="margin-bottom: 60px;">
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">세무·노무·프랜차이즈처럼 여러 고객사나 가맹점을 다루는 업종에는 공통점이 하나 있습니다. 주기적으로 자료를 요청하고, 취합하고, 누락을 확인하는 일이 반복된다는 거예요.</p>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">시기마다 거래처별로 자료 목록을 정리하고, 일일이 연락하고, 제출 여부를 확인하고, 안 된 곳엔 다시 연락하는 흐름. 건수가 늘어날수록 이 과정이 점점 무거워집니다.</p> 
@@ -32,6 +34,7 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 <li style="display: flex; align-items: start; gap: 10px;">⏳ 중요한 일보다 확인하고 정리하는 일에 더 많은 시간을 쓰고 있어요.</li>
 </ul>
 </section>
+
 <section style="margin-bottom: 60px;">
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5;">반복 업무인데도 계속 리소스가 커지는 이유</h2>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">규모가 커질수록 업무보다 운영 관리에 더 많은 시간이 들어가기 시작합니다.</p>
@@ -49,38 +52,18 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">처음에는 엑셀과 메신저만으로도 운영할 수 있지만, 건수가 많아질수록 반복 확인과 리마인드에 쓰는 시간이 훨씬 커집니다. 결국 중요한 검토 업무보다 “확인하고 정리하는 일”에 더 많은 시간을 쓰게 되는거죠.</p>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">그리고 이런 구조에서는 담당자가 놓치거나 자리를 비우는 순간, 바로 누락으로 이어지기 쉽습니다.</p>
 </section>
+
 <section style="margin-bottom: 60px;">
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 24px; line-height: 1.5;">자동화 워크플로우로 어떻게 달라질 수 있나요?</h2>
 <p style="font-size: 11px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: #1C1C22; margin-bottom: 14px;">핵심 변화</p>
-<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 40px; width: 100%;">
-<div style="flex: 1; min-width: 200px; background: #fff; border: 1px solid #EAEAEF; border-radius: 12px; padding: 24px 20px; position: relative;">
-<span style="position: absolute; top: 12px; right: 12px; font-size: 10px; font-weight: 600; color: #8366EE; background: #EFEBFE; padding: 2px 8px; border-radius: 999px;">1인 기준</span>
-<div style="font-size: 14px; font-weight: 600; color: #1E1B2E; margin-bottom: 12px;">거래처별 제출 현황 확인</div>
-<div style="display: flex; align-items: center; gap: 8px;">
-<span style="font-size: 13px; font-weight: 500; color: #9B9BA3;">매일 2시간</span>
-<span style="font-size: 13px; color: #8366EE;">→</span>
-<span style="font-size: 20px; font-weight: 800; color: #8366EE;">5분</span>
+
+<div style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom:40px; width:100%;" markdown="0">
+<div style="flex:1; min-width:200px; background:#fff; border:1px solid #EAEAEF; border-radius:12px; padding:24px 20px; position:relative;"><span style="position:absolute; top:12px; right:12px; font-size:10px; font-weight:600; color:#8366EE; background:#EFEBFE; padding:2px 8px; border-radius:999px;">1인 기준</span><div style="font-size:14px; font-weight:600; color:#1E1B2E; margin-bottom:12px;">거래처별 제출 현황 확인</div><div style="display:flex; align-items:center; gap:8px;"><span style="font-size:13px; font-weight:500; color:#9B9BA3;">매일 2시간</span><span style="font-size:13px; color:#8366EE;">→</span><span style="font-size:20px; font-weight:800; color:#8366EE;">5분</span></div></div>
+<div style="flex:1; min-width:200px; background:#fff; border:1px solid #EAEAEF; border-radius:12px; padding:24px 20px; position:relative;"><span style="position:absolute; top:12px; right:12px; font-size:10px; font-weight:600; color:#8366EE; background:#EFEBFE; padding:2px 8px; border-radius:999px;">1인 기준</span><div style="font-size:14px; font-weight:600; color:#1E1B2E; margin-bottom:12px;">자료 요청 · 리마인드 · 정리</div><div style="display:flex; align-items:center; gap:8px;"><span style="font-size:13px; font-weight:500; color:#9B9BA3;">월 60시간</span><span style="font-size:13px; color:#8366EE;">→</span><span style="font-size:20px; font-weight:800; color:#8366EE;">월 6시간</span></div></div>
+<div style="flex:1; min-width:200px; background:#fff; border:1px solid #EAEAEF; border-radius:12px; padding:24px 20px; position:relative;"><div style="font-size:14px; font-weight:600; color:#1E1B2E; margin-bottom:12px;">누락 리스크</div><div style="display:flex; align-items:center; gap:8px;"><span style="font-size:13px; font-weight:500; color:#9B9BA3;">담당자 기억 의존</span><span style="font-size:13px; color:#8366EE;">→</span><span style="font-size:18px; font-weight:800; color:#8366EE;">구조로 관리</span></div></div>
 </div>
-</div>
-<div style="flex: 1; min-width: 200px; background: #fff; border: 1px solid #EAEAEF; border-radius: 12px; padding: 24px 20px; position: relative;">
-<span style="position: absolute; top: 12px; right: 12px; font-size: 10px; font-weight: 600; color: #8366EE; background: #EFEBFE; padding: 2px 8px; border-radius: 999px;">1인 기준</span>
-<div style="font-size: 14px; font-weight: 600; color: #1E1B2E; margin-bottom: 12px;">자료 요청 · 리마인드 · 정리</div>
-<div style="display: flex; align-items: center; gap: 8px;">
-<span style="font-size: 13px; font-weight: 500; color: #9B9BA3;">월 60시간</span>
-<span style="font-size: 13px; color: #8366EE;">→</span>
-<span style="font-size: 20px; font-weight: 800; color: #8366EE;">월 6시간</span>
-</div>
-</div>
-<div style="flex: 1; min-width: 200px; background: #fff; border: 1px solid #EAEAEF; border-radius: 12px; padding: 24px 20px; position: relative;">
-<div style="font-size: 14px; font-weight: 600; color: #1E1B2E; margin-bottom: 12px;">누락 리스크</div>
-<div style="display: flex; align-items: center; gap: 8px;">
-<span style="font-size: 13px; font-weight: 500; color: #9B9BA3;">담당자 기억 의존</span>
-<span style="font-size: 13px; color: #8366EE;">→</span>
-<span style="font-size: 18px; font-weight: 800; color: #8366EE;">구조로 관리</span>
-</div>
-</div>
-</div>
-<div style="background-color: #fcfcfc; border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; border: 1px solid #EAEAEF;">
+
+<div style="background-color: #fcfcfc; border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; border: 1px solid #EAEAEF;" markdown="0">
 <p style="font-size: 16px; font-weight: bold; color: #1a1f27; margin-top: 0; margin-bottom: 16px;">🔄 업무 프로세스는 이렇게 달라집니다</p>
 <div style="margin-bottom: 20px;">
 <p style="font-size: 15px; font-weight: bold; color: #666; margin: 0 0 8px 0;">[기존 방식] 사람의 기억과 손을 거치는 수동 작업</p>
@@ -92,16 +75,19 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 <p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 0;">정해진 시기가 되면 대상자에게 <strong>자동으로 요청 메시지</strong>가 발송됩니다. 고객사가 안내된 링크를 통해 자료를 제출하면, 담당자의 확인 없이도 <strong>대시보드 제출 현황이 실시간으로 업데이트</strong>됩니다. 또한 마감 전까지 제출하지 않은 고객사에게만 <strong>시스템이 알아서 리마인드 메시지</strong>를 보내주어 불필요한 커뮤니케이션 리소스를 획기적으로 줄여줍니다.</p>
 </div>
 </div>
+
 <h3 style="font-size: 18px; font-weight: bold; color: #1a1f27; margin-top: 40px; margin-bottom: 16px;">핵심 프로세스 변화</h3>
 <div style="width: 100%; margin: 20px 0 40px 0; text-align: center;">
 <img src="https://i.ibb.co/5hgzRG7G/2026-05-25-204359.png" alt="정기 자료 요청 취합 자동화 프로세스 변화" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #EAEAEF;" />
 </div>
 </section>
+
 <section style="margin-bottom: 60px;">
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5;">현황은 어떻게 보나요</h2>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">자료 제출 현황은 대시보드 하나에 정리됩니다. 어느 고객사가 제출했고, 어디가 아직인지, 별도 확인 없이 화면에서 바로 파악할 수 있습니다.</p>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 32px;">팀장 입장에서는 별도 보고 없이도 현황을 볼 수 있고, 담당자는 매번 정리해서 공유하는 수고가 줄어듭니다.</p>
 </section>
+
 <section style="margin-bottom: 40px;">
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5;">적용 업종 예시</h2>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 24px;">반복적으로 자료를 요청하고 취합하는 구조라면 업종 관계없이 적용할 수 있습니다.</p>
@@ -122,4 +108,5 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 </ul>
 </div>
 </section>
+
 </div>
