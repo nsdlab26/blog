@@ -79,10 +79,25 @@ layout: default
 </style>
 
 <!-- POST HERO -->
+HTML
 <section class="post-hero">
   <div class="post-hero-inner">
     <a href="/" class="post-back">← 목록으로</a>
-    <div class="post-cat">{{ page.category }}</div>
+    
+    {% assign cat_url = "" %}
+    {% case page.category %}
+      {% when "운영 시스템" %}
+        {% assign cat_url = "https://nsdlab.kr/ops_system" %}
+      {% when "업무 프로세스 자동화" %}
+        {% assign cat_url = "https://nsdlab.kr/workflow" %}
+      {% when "웹페이지" %}
+        {% assign cat_url = "https://www.nsdlab.kr/businessweb" %}
+      {% else %}
+        {% assign cat_url = "/" %}
+    {% endcase %}
+    
+    <a href="{{ cat_url }}" class="post-cat">{{ page.category }}</a>
+    
     <h1 class="post-title">{{ page.title }}</h1>
     <span class="post-date">{{ page.date | date: "%Y년 %m월 %d일" }}</span>
   </div>
