@@ -5,7 +5,7 @@ slug: data-collection-automation
 category: 업무 프로세스 자동화
 cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/8fd747d24aa7c.png
 date: 2026-05-25
-meta_title: 정기 자료 요청·추적 자동화 ㅡ 시기별로 자료를 요청하고, 누락 없이 취합"
+meta_title: "정기 자료 요청·추적 자동화 ㅡ 시기별로 자료를 요청하고, 누락 없이 취합"
 meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 담당자의 기억이 아닌 자동화와 시스템으로 누락 없이 관리하는 워크플로우 설계."
 ---
 
@@ -61,7 +61,7 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 
   <ul style="margin-bottom: 18px; padding-left: 20px; line-height: 1.9; color: #1a1f27;">
     <li style="font-size: 16px;">누구에게 요청했는지</li>
-    <li style="font-size: 16px;">어디까지 제출됐는지</li>
+    <li style="font-size: 16px;">어디까지 제출됐지</li>
     <li style="font-size: 16px;">어떤 서류가 누락됐는지</li>
     <li style="font-size: 16px;">어디에 다시 연락해야 하는지</li>
   </ul>
@@ -71,7 +71,7 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
   </p>
 
   <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">
-    처음에는 엑셀และ 메신저만으로도 운영할 수 있지만, 건수가 많아질수록 반복 확인과 리마인드에 쓰는 시간이 훨씬 커집니다.
+    처음에는 엑셀과 메신저만으로도 운영할 수 있지만, 건수가 많아질수록 반복 확인과 리마인드에 쓰는 시간이 훨씬 커집니다.
     결국 중요한 검토 업무보다 "확인하고 정리하는 일"에 더 많은 시간을 쓰게 되는거죠.
   </p>
 
@@ -80,6 +80,7 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
   </p>
 </section>
 <br>
+
 <section style="margin-bottom: 60px;">
   <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5;">자동화 워크플로우로 어떻게 달라질 수 있나요?</h2>
 
@@ -166,7 +167,6 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 
   <div style="background-color: #fcfcfc; border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; border: 1px solid #EAEAEF;">
     <p style="font-size: 16px; font-weight: bold; color: #1a1f27; margin-top: 0; margin-bottom: 16px;">🔄 업무 프로세스는 이렇게 달라집니다</p>
-    
     <div style="margin-bottom: 20px;">
       <p style="font-size: 15px; font-weight: bold; color: #666; margin: 0 0 8px 0;">[기존 방식] 사람의 기억과 손을 거치는 수동 작업</p>
       <p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 0;">
@@ -177,7 +177,7 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
     <div>
       <p style="font-size: 15px; font-weight: bold; color: #8366ee; margin: 0 0 8px 0;">[자동화 도입 후] 시스템이 알아서 챙기는 워크플로우</p>
       <p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 0;">
-        정해진 시기가 되면 대상자에게 <strong>자동으로 요청 메시지</strong>가 발송됩니다. 고객사가 안내된 링크를 통해 자료를 제출하면, 담당자의 확인 없이도 <strong>대시보드 제출 현황이 실시간으로 업데이트</strong>됩니다. 또한 마감 전까지 제출하지 않은 고객사에게만 <strong>시스템이 알아서 리마인드 메시지</strong>를 보내주어 불필요한 커뮤니케이션 리소스를 획기적으로줄여줍니다.
+        정해진 시기가 되면 대상자에게 <strong>자동으로 요청 메시지</strong>가 발송됩니다. 고객사가 안내된 링크를 통해 자료를 제출하면, 담당자의 확인 없이도 <strong>대시보드 제출 현황이 실시간으로 업데이트</strong>됩니다. 또한 마감 전까지 제출하지 않은 고객사에게만 <strong>시스템이 알아서 리마인드 메시지</strong>를 보내주어 불필요한 커뮤니케이션 리소스를 획기적으로 줄여줍니다.
       </p>
     </div>
   </div>
@@ -185,7 +185,6 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
   <div class="kc-section-label">핵심 프로세스 변화</div>
   <div class="wf-wrapper">
     <div class="proc-wrap">
-
       <div class="proc-row proc-row--before">
         <div class="proc-tag">
           <span class="proc-chip proc-chip--before">Before</span>
@@ -357,19 +356,21 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5;">적용 업종 예시</h2>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 24px;">반복적으로 자료를 요청하고 취합하는 구조라면 업종 관계없이 적용할 수 있습니다.</p>
 
-<ul style="list-style: none; padding-left: 0; margin: 25px 0 30px 0;">
-  <li style="display: flex; align-items: start; gap: 10px; color: #1a1f27; margin-bottom: 20px; font-size: 16px; line-height: 1.6; font-weight: 400;">
-    <span style="color: #8366ee; font-weight: bold; margin-top: 2px;">🏢 세무·회계</span>
-    <div>신고 시즌마다 고객 자료 요청, 취합, 누락 추적이 반복되며 끝없는 커뮤니케이션</div>
-  </li>
-  <li style="display: flex; align-items: start; gap: 10px; color: #1a1f27; margin-bottom: 20px; font-size: 16px; line-height: 1.6; font-weight: 400;">
-    <span style="color: #8366ee; font-weight: bold; margin-top: 2px;">🤝 노무법인</span>
-    <div>급여, 입퇴사, 4대보험 관련 서류 등 매번 동일한 사항을 고객사마다 요청</div>
-  </li>
-  <li style="display: flex; align-items: start; gap: 10px; color: #1a1f27; font-size: 16px; line-height: 1.6; font-weight: 400;">
-    <span style="color: #8366ee; font-weight: bold; margin-top: 2px;">🏬 프랜차이즈</span>
-    <div>가맹점별 매출·정산 자료를 매번 직접 연락해 하나씩 취합</div>
-  </li>
-</ul>
+<div style="background-color: #f5f4f8; border-radius: 12px; padding: 24px 28px;">
+  <ul style="list-style: none; padding-left: 0; margin: 0;">
+    <li style="display: flex; align-items: start; gap: 10px; color: #1a1f27; margin-bottom: 20px; font-size: 16px; line-height: 1.6; font-weight: 400;">
+      <span style="color: #8366ee; font-weight: bold; margin-top: 2px;">🏢 세무·회계</span>
+      <div>신고 시즌마다 고객 자료 요청, 취합, 누락 추적이 반복되며 끝없는 커뮤니케이션</div>
+    </li>
+    <li style="display: flex; align-items: start; gap: 10px; color: #1a1f27; margin-bottom: 20px; font-size: 16px; line-height: 1.6; font-weight: 400;">
+      <span style="color: #8366ee; font-weight: bold; margin-top: 2px;">🤝 노무법인</span>
+      <div>급여, 입퇴사, 4대보험 관련 서류 등 매번 동일한 사항을 고객사마다 요청</div>
+    </li>
+    <li style="display: flex; align-items: start; gap: 10px; color: #1a1f27; font-size: 16px; line-height: 1.6; font-weight: 400;">
+      <span style="color: #8366ee; font-weight: bold; margin-top: 2px;">🏬 프랜차이즈</span>
+      <div>가맹점별 매출·정산 자료를 매번 직접 연락해 하나씩 취합</div>
+    </li>
+  </ul>
+</div>
 </section>
 </div>
