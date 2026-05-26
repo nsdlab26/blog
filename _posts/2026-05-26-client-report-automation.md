@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "클라이언트 정기 리포트, 데이터 취합부터 발송까지 2시간을 5분으로"
+title: "클라이언트 정기 리포트, 제작부터 발송까지 2시간을 5분으로"
 slug: client-report-automation
 category: 업무 프로세스 자동화
 cover: https://i.ibb.co/bgbz4m08/2026-05-26-182709.png
