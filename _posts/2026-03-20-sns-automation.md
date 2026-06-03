@@ -65,5 +65,12 @@ meta_description: "영상 하나로 블로그 글까지. 영상 스크립트 기
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 32px;"> </p>
 <div style="font-size: 16px; font-weight: bold; color: #1a1f27; background-color: #f5f4f8; padding: 25px 30px; border-radius: 12px; line-height: 1.8;">혹시 비슷하게 반복 작업에 시간을 쓰고 계신다면, 지금 당장 사람을 대체하는 완벽한 자동화보다는<br /> <strong style="color: #8366ee; font-weight: bold;">“한 번 덜 하게 만드는 구조”</strong>부터 만들어보셔도 좋을 것 같습니다 🙂</div>
 </section>
+  <br>
+<!-- 카톡 채널 링크 섹션 -->
+<section style="margin-top: 50px; margin-bottom: 20px;">
+    <a href="https://www.nsdlab.kr/main/?idx=13" target="_blank" style="display: inline-block; padding: 12px 24px; font-size: 16px; font-weight: bold; color: #ffffff; background-color: #8366ee; border-radius: 8px; text-decoration: none; box-shadow: 0 2px 6px rgba(131, 102, 238, 0.2);">
+        🎁 카톡 채널 친구하고 0원에 구매하기!
+    </a>
+</section>
 <p style="margin-top: 32px;"> </p>
 </div>
