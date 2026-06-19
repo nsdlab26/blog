@@ -23,7 +23,7 @@ meta_description: "엑셀 시트 대신 워크플로우로, 자동 계산되는 
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;">이 시스템은 실제로 만들어 몇 년간 사용한 사례입니다.<br /> 모든 체계를 갖추기 어려운 소규모 조직에 추천하며, 다음과 같은 경우 전문 HR 솔루션을 검토하는 것이 적합할 수 있습니다.</p>
 <ul style="list-style: none; padding-left: 15px; margin: 0; font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27;">
 <li>• 조직의 규모가 커지거나</li>
-<li>• 근무 유형과 수당 구조가 복잡한 경우</li>
+<li>• 근무 유형 and 수당 구조가 복잡한 경우</li>
 <li></li>
 </ul>
 </section>
@@ -32,7 +32,7 @@ meta_description: "엑셀 시트 대신 워크플로우로, 자동 계산되는 
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;">어떤 제도를 운영하든, 구성원과의 합의와 기준을 명확히 하는 일은 중요합니다. 회사도 멤버들도 규칙에 맞게 행동하도록 모든 멤버가 접근하는 공통 페이지에 연차와 휴가 제도에 대해 최대한 자세히 정리해두었습니다.</p>
 <div style="margin-bottom: 18px;"><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/fc9708dab314a.png" alt="" /></div>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 0;">이 제도는 휴가 신청 페이지에도 대문짝만하게 적어줍니다. 관련된 규칙은 무조건 실제로 행동이 일어나는 화면에도 함께 둬야 잘 지키더라고요 ㅎㅎ</p>
-<p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 0;"> </p>
+<p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 0;"> </p>
 </section>
 <section style="margin-bottom: 60px;">
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; color: #1a1f27; line-height: 1.5;">2. 휴가 신청·승인·관리 페이지 구조</h2>
@@ -45,7 +45,7 @@ meta_description: "엑셀 시트 대신 워크플로우로, 자동 계산되는 
 </ul>
 </div>
 <div style="margin-bottom: 40px;"><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/0a776e2e00411.png" alt="" /></div>
-<div style="margin-bottom: 40px;"> </div>
+<div style="margin-bottom: 40px;"> </div>
 <div style="background-color: #f9f9fb; border: 1px solid #EAEAEF; padding: 24px 30px; border-radius: 12px; margin-bottom: 24px;">
 <h3 style="font-size: 18px; font-weight: bold; margin-bottom: 12px; color: #8366ee;">통합 관리 (관리자만 접근 가능)</h3>
 <ul style="list-style: none; padding-left: 0; margin: 0; font-size: 16px; font-weight: 400; line-height: 1.6;">
@@ -56,13 +56,10 @@ meta_description: "엑셀 시트 대신 워크플로우로, 자동 계산되는 
 <div style="margin-bottom: 18px;"><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/d5f2190231f3d.png" alt="" /></div>
 </section>
 <section style="margin-bottom: 60px;">
-<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 24px; color: #1a1f27; line-height: 1.5;"> </h2>
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 24px; color: #1a1f27; line-height: 1.5;">3. 휴가·연차가 적용되는 구조</h2>
-<h3 style="font-size: 18px; font-weight: bold; margin-bottom: 12px; color: #1a1f27;"> </h3>
 <h3 style="font-size: 18px; font-weight: bold; margin-bottom: 12px; color: #1a1f27;">✔️ 휴가 및 경조사 종류</h3>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;">내부 규정에 맞춰 유형별 소진 여부와 일수를 설정할 수 있습니다. 연차가 차감되지 않는 항목도 부재일로 기록해 공백 현황이 보이도록 구성했습니다.</p>
 <div style="margin-bottom: 48px;"><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/5393b09733c8e.png" alt="" /></div>
-<h3 style="font-size: 18px; font-weight: bold; margin-bottom: 12px; color: #1a1f27;"> </h3>
 <h3 style="font-size: 18px; font-weight: bold; margin-bottom: 12px; color: #1a1f27;">✔️ 휴가 신청·승인폼</h3>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;">신청자가 테이블을 통해 신청하면 다음과 같은 자동화가 일어납니다.</p>
 <div style="background-color: #f9f9fb; border: 1px solid #EAEAEF; padding: 24px 30px; border-radius: 12px; margin-bottom: 24px;">
@@ -73,7 +70,6 @@ meta_description: "엑셀 시트 대신 워크플로우로, 자동 계산되는 
 </ul>
 </div>
 <div style="margin-bottom: 48px;"><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/e6df517df96ba.png" alt="" /></div>
-<h3 style="font-size: 18px; font-weight: bold; margin-bottom: 12px; color: #1a1f27;"> </h3>
 <h3 style="font-size: 18px; font-weight: bold; margin-bottom: 12px; color: #1a1f27;">✔️ 멤버별 누적 휴가 사용 리스트</h3>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;">근속연수에 따른 발생, 사용, 잔여 연차를 한 화면에서 관리합니다.</p>
 <div style="background-color: #f9f9fb; border: 1px solid #EAEAEF; padding: 24px 30px; border-radius: 12px; margin-bottom: 24px;">
@@ -84,8 +80,8 @@ meta_description: "엑셀 시트 대신 워크플로우로, 자동 계산되는 
 </ul>
 </div>
 <div style="margin-bottom: 40px;"><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/81e66832f5bd2.png" alt="" /></div>
-<div style="margin-bottom: 40px;"> </div>
+<div style="margin-bottom: 40px;"> </div>
 <div style="font-size: 16px; line-height: 1.8; color: #1a1f27; background-color: #f5f4f8; padding: 25px 30px; border-radius: 12px; text-align: left; font-weight: 400;">사실 휴가 신청 사례로 소개했지만, 결재 신청이나 비용 승인 등 <strong style="font-weight: bold;">신청-승인-관리 흐름이 필요한 모든 프로세스</strong>에 그대로 적용할 수 있는 구조입니다. 😀</div>
 </section>
-<p style="margin-top: 32px;"> </p>
+<p style="margin-top: 32px;"> </p>
 </div>
