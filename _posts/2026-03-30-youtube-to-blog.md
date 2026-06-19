@@ -18,11 +18,10 @@ meta_description: "영상 하나로 블로그 글까지. 영상 스크립트 기
 </ul>
 </blockquote>
 <section style="margin-bottom: 60px;">
-<h2 style="font-size: 22px; font-weight: bold; margin-top: 0px; margin-bottom: 20px; line-height: 1.5;"> </h2>
 <h2 style="font-size: 22px; font-weight: bold; margin-top: 0px; margin-bottom: 20px; line-height: 1.5;">영상 하나로 블로그 글까지 쓰는 방법</h2>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;">“영상은 만들었는데, 블로그 또 써야 하네…”<br /> 영상 하나 만들고, 그걸 다시 풀어서 블로그 쓰고, 이미지 캡처해서 넣고… 문제는 이게 한두 번은 괜찮은데 계속 쌓이니까 피로감이 오더라고요.</p>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 24px;">결국 중요한 건 콘텐츠인데, 정작 시간은 복붙하고 정리하는 데 쓰고 있는 느낌이었습니다.<br /> 노션과 메이크를 활용해 조금 더 효율적으로 블로그를 작성하게 된 사례를 공유드립니다😃</p>
-<p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 24px;"> </p>
+<p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 24px;"> </p>
 <div style="margin-bottom: 10px;"><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/87267d0e86aef.png" alt="" /></div>
 </section>
 <section style="margin-bottom: 60px;">
@@ -32,7 +31,6 @@ meta_description: "영상 하나로 블로그 글까지. 영상 스크립트 기
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27;">예전에는 블로그를 따로 써야 한다는 압박이 있었는데, 지금은 초안이 이미 나오니까 “여기 조금만 다듬으면 되겠네” 정도로 바뀌었어요! 결과적으로 블로그 발행 주기도 짧아지고 흐름도 끊기지 않게 됐습니다.</p>
 </section>
 <section style="margin-bottom: 60px;">
-<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5; color: #1a1f27;"> </h2>
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5; color: #1a1f27;">자동화 흐름</h2>
 <div style="background-color: #f9f9fb; border: 1px solid #EAEAEF; padding: 24px 30px; border-radius: 12px; margin-bottom: 24px;">
 <ol style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin: 0; padding-left: 20px;">
@@ -47,7 +45,6 @@ meta_description: "영상 하나로 블로그 글까지. 영상 스크립트 기
 </section>
 <section style="margin-bottom: 48px;">
 <div style="margin-bottom: 32px;"><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/e5d4c8150ac34.png" alt="" /></div>
-<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 12px; line-height: 1.5; color: #1a1f27;"> </h2>
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 12px; line-height: 1.5; color: #1a1f27;">업무 자동화가 되면 뭐가 좋을까요?</h2>
 <p style="font-size: 16px; color: #666666; margin-bottom: 20px;"><strong>그리고 왜, 트래커로 "구조가 보이는" 자동화가 중요한 걸까요?</strong></p>
 <div style="background-color: #f9f9fb; border: 1px solid #EAEAEF; padding: 24px 30px; border-radius: 12px; margin-bottom: 32px;">
@@ -57,8 +54,8 @@ meta_description: "영상 하나로 블로그 글까지. 영상 스크립트 기
 <li style="display: flex; align-items: start; gap: 10px;"><span style="color: #8366ee; font-weight: bold;">✓</span> 업무 히스토리 축적 → <strong style="color: #8366ee; font-weight: bold;">과거 정보 활용도 상승</strong></li>
 </ul>
 </div>
-<p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;"> </p>
+<p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;"> </p>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;">콘텐츠 자동화는 프롬프트를 미리 작성해두더라도 항상 만족스러운 결과가 나올지 걱정이 많았는데요.<br /> 프로세스가 이렇게 바뀌니까 심리적 부담감도, 투입되는 시간도 줄어서 개인적으로는 정말 만족스러운 시스템 중 하나입니다.</p>
 </section>
-<p style="margin-top: 32px;"> </p>
+<p style="margin-top: 32px;"> </p>
 </div>
