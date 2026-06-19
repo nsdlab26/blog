@@ -8,9 +8,8 @@ date: 2026-01-20
 meta_title: "기존 피부과 홈페이지를 노션으로 재구현"
 meta_description: "기존에 운영하던 피부과 홈페이지를 노션으로 재구현한 사례. 개발자 없이도 콘텐츠 수정, 다국어 페이지 추가, 빠른 업데이트가 가능합니다."
 ---
-<div style="font-family: 'Pretendard', sans-serif; color: #1a1f27; letter-spacing: -0.01em;"><!-- 상단 커버 이미지 -->
-<blockquote style="background-color: #f5f4f8; padding: 25px 30px; border-left: 5px solid #8366EE; border-radius: 8px; margin: 30px 0 40px 0; border-top: none; border-right: none; border-bottom: none; quotes: none;">
-<h3 style="font-size: 18px; font-weight: bold; color: #8366ee; margin-top: 0px; margin-bottom: 15px; display: flex; align-items: center; gap: 8px; line-height: 1.4;">💡 핵심 포인트</h3>
+<div style="font-family: 'Pretendard', sans-serif; color: #1a1f27; letter-spacing: -0.01em;"><blockquote style="background-color: #f5f4f8; padding: 25px 30px; border-left: 5px solid #8366EE; border-radius: 8px; margin: 30px 0 40px 0; border-top: none; border-right: none; border-bottom: none; quotes: none;">
+<div style="font-size: 18px; font-weight: bold; color: #8366ee; margin-top: 0px; margin-bottom: 15px; display: flex; align-items: center; gap: 8px; line-height: 1.4;">💡 핵심 포인트</div>
 <p style="font-size: 16px; line-height: 1.7; color: #1a1f27; margin-bottom: 0; font-weight: 400;">피부과를 대상으로 기존에 운영 중이던 국문 사이트를 기반으로 노션을 활용해 영문 웹사이트를 새롭게 구현했습니다.</p>
 </blockquote>
 <section style="margin-bottom: 60px;">
@@ -28,8 +27,8 @@ meta_description: "기존에 운영하던 피부과 홈페이지를 노션으로
 <p style="margin-bottom: 32px;"><img style="width: 400px; max-width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/21efacbc656bd.png" alt="" /></p>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;">보통 웹사이트를 만들 때는 노션에 외부 툴을 연결하는데요. 상단에 카테고리 메뉴를 구성할 수 있을 뿐만 아니라, 하단에 추가적인 내비게이터를 넣을 수 있습니다. <br />오른쪽 하단에는 카카오톡 채널이나 채널톡 같은 상담 채널도 연결할 수 있어서 실제 홈페이지처럼 활용하실 수 있고요.</p>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;">전체 작업 기간은 대략 3~4일 정도 걸렸던 것 같아요.<br />생각보다 빠르게 완성되어서인지 “벌써 끝났어요?” 하시며 놀라워하시더라고요. 결과물도 만족스러워하셔서 저 역시 기분 좋게 마무리할 수 있었습니다 😁</p>
-<p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;"> </p>
-<h3 style="font-size: 18px; font-weight: bold; line-height: 1.5; color: #8366ee; margin-bottom: 24px;">노션으로 웹사이트를 만드는건 이런 분들에게 추천드려요!</h3>
+<p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;"> </p>
+<h2 style="font-size: 18px; font-weight: bold; line-height: 1.5; color: #8366ee; margin-bottom: 24px;">노션으로 웹사이트를 만드는건 이런 분들에게 추천드려요!</h2>
 <p style="margin-bottom: 32px;"><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/32ee3cc34f720.png" alt="" /></p>
 </section>
 </div>
