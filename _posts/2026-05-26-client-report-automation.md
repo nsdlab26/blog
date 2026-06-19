@@ -72,9 +72,6 @@ meta_description: "플랫폼마다 데이터를 직접 뽑아 클라이언트별
 <p style="font-size: 11px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: #1C1C22; margin-bottom: 14px;">핵심 프로세스</p>
 <div style="width: 100%; margin: 20px 0 16px 0; text-align: center;">
 <img src="https://i.ibb.co/QvfRKk4t/Kakao-Talk-20260526-173002895.jpg" alt="클라이언트 정기 리포트 자동화 프로세스 변화" style="max-width: 60%; height: auto; border-radius: 8px; border: 1px solid #EAEAEF;" />
-<p style="font-size: 14px; color: #555; margin-top: 15px; margin-bottom: 40px; text-align: left;">
-
-</p>
 </div>
 
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">데이터가 한 곳에 모이면, 이후 흐름은 시스템이 처리합니다. 지정 주기마다 클라이언트별 리포트가 자동으로 생성되고, 담당자는 결과물을 확인하고 승인하는 구조로 바뀌게 되어요. 발송과 현황 업데이트까지 자동으로 처리되고, 수동 입력이 없어지니 수치 오류에 대한 리스크도 거의 없어지구요.</p>
