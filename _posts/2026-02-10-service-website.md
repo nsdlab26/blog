@@ -11,15 +11,15 @@ meta_description: "신규 서비스 런칭 시 미팅, 링크 공유, 광고 랜
 
 <div style="font-family: 'Pretendard',sans-serif; color: #1a1f27; letter-spacing: -0.01em;">
 <blockquote style="background-color: #f5f4f8; padding: 24px 28px; border-left: 5px solid #8366EE; border-radius: 8px; margin: 0 0 40px 0; border-top: none; border-right: none; border-bottom: none; quotes: none;">
-<h3 style="font-size: 18px; font-weight: bold; color: #8366ee; margin: 0 0 12px 0; display: flex; align-items: center; gap: 8px;">💡 핵심 포인트</h3>
+<div style="font-size: 18px; font-weight: bold; color: #8366ee; margin: 0 0 12px 0; display: flex; align-items: center; gap: 8px;">💡 핵심 포인트</div>
 <p style="font-size: 16px; line-height: 1.7; color: #1a1f27; margin: 0;">노션으로 소개서를 만들어 서비스를 소개하거나 홍보를 할 때의 자료로 사용하셨어요!<br />설문 양식을 연결해두어, 관심 있는 분들은 바로 문의까지 이어질 수 있도록 구성했습니다.</p>
 </blockquote>
 <section style="margin-bottom: 48px;">
 <p style="font-size: 16px; line-height: 1.8; margin-bottom: 14px;">신규 서비스를 런칭할 때 가장 막막한 순간은, "<strong>이걸 어떻게 설명하지?</strong>"라는 질문이 떠오를 때인 것 같아요.</p>
 <p style="font-size: 16px; line-height: 1.8; margin-bottom: 14px;">아직 웹사이트도, 자료도 없는 상태에서는 말로만 서비스 이야기를 해야 하는데, 아무리 열심히 설명해도 듣는 사람 입장에서는 한 번에 이해하기가 쉽지 않죠.</p>
 <p style="font-size: 16px; line-height: 1.8; margin-bottom: 28px;">이 분도 그래서 '말' 대신 보여줄 수 있는 <strong>'한 장의 소개서'</strong>가 필요하다고 느끼셨다고 합니다.</p>
-<p style="font-size: 16px; line-height: 1.8; margin-bottom: 28px;"> </p>
-<h3 style="font-size: 18px; font-weight: bold; line-height: 1.5; color: #8366ee; margin: 0 0 16px 0;">주로 세 가지 용도로 활용되고 있어요.</h3>
+<p style="font-size: 16px; line-height: 1.8; margin-bottom: 28px;"> </p>
+<h2 style="font-size: 18px; font-weight: bold; line-height: 1.5; color: #8366ee; margin: 0 0 16px 0;">주로 세 가지 용도로 활용되고 있어요.</h2>
 <ul style="list-style: none; padding: 0; margin-bottom: 28px;">
 <li style="margin-bottom: 10px; display: flex; align-items: flex-start; gap: 8px;"><span style="color: #8366ee; font-weight: bold; flex-shrink: 0; min-width: 20px;">✔</span> <span style="flex: 1; font-size: 16px; line-height: 1.8; word-break: keep-all;">미팅에서 서비스를 한눈에 설명하는 <strong>소개 자료</strong></span></li>
 <li style="margin-bottom: 10px; display: flex; align-items: flex-start; gap: 8px;"><span style="color: #8366ee; font-weight: bold; flex-shrink: 0; min-width: 20px;">✔</span> <span style="flex: 1; font-size: 16px; line-height: 1.8; word-break: keep-all;">링크 하나로 공유해 <strong>서비스 문의를 바로 받는 페이지</strong></span></li>
@@ -31,7 +31,7 @@ meta_description: "신규 서비스 런칭 시 미팅, 링크 공유, 광고 랜
 </section>
 <section style="margin-bottom: 48px;"><img style="width: 100%; border-radius: 8px; margin-bottom: 28px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/e13380868b005.png" alt="" />
 <p style="font-size: 16px; line-height: 1.8; margin-bottom: 28px;">소개서를 읽는 동안 하단에는 CTA 버튼이 계속 노출되어, "조금 더 궁금한데?" 하는 순간 바로 문의로 이어질 수 있게 만들었습니다. 문의가 들어오면 알림을 받아 빠르게 대응할 수 있도록 연결해두었구요😃</p>
-<p style="font-size: 16px; line-height: 1.8; margin-bottom: 28px;"> </p>
+<p style="font-size: 16px; line-height: 1.8; margin-bottom: 28px;"> </p>
 <img style="width: 100%; border-radius: 8px; margin-bottom: 28px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/206f3fb05e055.png" alt="" />
 <p style="font-size: 16px; line-height: 1.8; margin-bottom: 14px;">신규 서비스는 결국, "이게 뭐 하는 서비스인지"를 얼마나 <strong>짧은 시간 안에 잘 이해시키느냐가</strong> 정말 중요하더라고요.</p>
 <p style="font-size: 16px; line-height: 1.8; margin-bottom: 14px;">말로만 설명할 때보다, 이렇게 한 장의 소개 페이지로 정리해두면 미팅에서도, 링크 공유에서도, 광고 랜딩에서도 훨씬 수월하게 이야기를 꺼낼 수 있습니다.</p>
