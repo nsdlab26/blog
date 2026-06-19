@@ -9,7 +9,7 @@ meta_title: "프로젝트와 업무가 한눈에 보이는 관리 보드"
 meta_description: "여러 프로젝트가 동시에 돌아갈 때, 물어보지 않고도 현황을 파악하는 법. 프로젝트와 태스크가 유기적으로 연결된 실무형 운영 시스템 구축 사례입니다."
 ---
 <blockquote style="background-color: #f5f4f8; padding: 24px 28px; border-left: 5px solid #8366EE; border-radius: 8px; margin: 0 0 40px 0; border-top: none; border-right: none; border-bottom: none; quotes: none;">
-<h2 style="font-size: 18px; font-weight: bold; color: #8366ee; margin: 0 0 12px 0;">💡 핵심 포인트</h2>
+<div style="font-size: 18px; font-weight: bold; color: #8366ee; margin: 0 0 12px 0;">💡 핵심 포인트</div>
 <ul style="list-style: none; padding: 0; margin: 0; line-height: 1.8; font-size: 16px;">
 <li style="display: flex; align-items: flex-start; gap: 10px; color: #1a1f27; margin-bottom: 8px;"><span style="color: #8366ee; font-weight: bold;">✔️</span> 프로젝트별 진행 현황 체크</li>
 <li style="display: flex; align-items: flex-start; gap: 10px; color: #1a1f27; margin-bottom: 8px;"><span style="color: #8366ee; font-weight: bold;">✔️</span> 담당자별 업무를 확인하여 업무가 과중되고 있지 않은지 체크</li>
@@ -20,7 +20,7 @@ meta_description: "여러 프로젝트가 동시에 돌아갈 때, 물어보지 
 <section style="margin-bottom: 48px;">
 <h2 style="font-size: 22px; font-weight: bold; color: #1a1f27; margin: 0 0 16px 0;">글로벌 브랜드의 모든 프로젝트와 업무를 한 곳에서 관리하는 법</h2>
 <p style="font-size: 16px; line-height: 1.8; color: #444; margin-bottom: 14px;">이 회사는 글로벌 K-beauty 브랜드 운영사였는데요, 법인도 여러개고 동시다발적으로 진행되고 있는 프로젝트들이 너무 많은데 전혀 트래킹이 되고 있지 않은 상황이었습니다.</p>
-<p style="font-size: 16px; line-height: 1.8; color: #444; margin-bottom: 14px;">아무래도 현재 뭘 하고 있는지 직관적이게 볼 수가 없다보니 서로 협업도 어렵고, 하자고 했던게 진행이 되고 있는지도 확인할 수가 없고.. 결국에는 직접 그 사람에게 가서 매번 물어보게 된다고 하시더라구요.</p>
+<p style="font-size: 16px; line-height: 1.8; color: #444; margin-bottom: 14px;">아무래도 현재 뭘 하고 있는지 직관적이게 볼 수가 없다보니 서로 협업도 어렵고, 하자고 했던게 진행이 되고 있는지도 확인할 수가 없고.. 결국에는 직접 그 사람에게 가서 매번 물어보게 된다고 하시더라고요.</p>
 <p style="font-size: 16px; line-height: 1.8; color: #444;">그대로 가져올 수가 없어서 템플릿은 유사하게 가져오고 프로젝트와 내용만 바꿨는데요, 두개 테이블이 연동되어 있는 구조입니다.</p>
 </section>
 
