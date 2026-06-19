@@ -18,7 +18,7 @@ meta_description: "병원에 내부 운영 시스템이 필요한 이유. 정보
 <p style="font-size: 16px; font-weight: 400; color: #1a1f27; margin-bottom: 20px; line-height: 1.8;">원장님들 이야기를 듣다 보면 아래 같은 고민을 많이 하고 계신 것 같았어요.</p>
 <div style="background-color: #f9f9fb; border: 1px solid #EAEAEF; padding: 20px 25px; border-radius: 12px; margin-bottom: 20px; color: #1a1f27; font-style: italic; line-height: 1.8;"><span style="font-size: 16px; font-weight: 400;">“지금 체계가 없는 것 같긴 한데… 뭘 어떻게 해야 할지 모르겠다”</span></div>
 <p style="font-size: 16px; line-height: 1.8; color: #1a1f27; font-weight: 400;">운영 시스템이 없는 상태에서는 이런 문제들이 동시에, 그리고 반복해서 나타나게 됩니다.</p>
-<p style="font-size: 16px; line-height: 1.8; color: #1a1f27; font-weight: 400;"> </p>
+<p style="font-size: 16px; line-height: 1.8; color: #1a1f27; font-weight: 400;"> </p>
 </section>
 <section style="margin-bottom: 60px;">
 <h3 style="font-size: 18px; font-weight: bold; color: #1a1f27; margin-bottom: 15px; line-height: 1.5;">1️⃣ 정보 파편화</h3>
@@ -30,7 +30,6 @@ meta_description: "병원에 내부 운영 시스템이 필요한 이유. 정보
 <li style="color: #8366ee; font-weight: bold;">👉🏻 정보는 있는데 연결된 구조가 없음</li>
 </ul>
 </div>
-<h3 style="font-size: 18px; font-weight: bold; color: #1a1f27; margin-bottom: 15px; line-height: 1.5;"> </h3>
 <h3 style="font-size: 18px; font-weight: bold; color: #1a1f27; margin-bottom: 15px; line-height: 1.5;">2️⃣ 체계 없음</h3>
 <div style="background-color: #f9f9fb; border: 1px solid #EAEAEF; padding: 25px 30px; border-radius: 12px; margin-bottom: 40px;">
 <p style="font-size: 16px; font-weight: bold; margin-bottom: 12px; color: #1a1f27;">✔️ 예시 1) 휴가·업무 관리</p>
@@ -45,7 +44,6 @@ meta_description: "병원에 내부 운영 시스템이 필요한 이유. 정보
 </ul>
 <p style="font-size: 16px; color: #8366ee; font-weight: bold; margin: 0;">👉🏻 어떤 기준으로 관리되고 있는지 명확하지 않고, 사람의 기억과 경험에 의존</p>
 </div>
-<h3 style="font-size: 18px; font-weight: bold; color: #1a1f27; margin-bottom: 15px; line-height: 1.5;"> </h3>
 <h3 style="font-size: 18px; font-weight: bold; color: #1a1f27; margin-bottom: 15px; line-height: 1.5;">3️⃣ 병원 운영 흐름 가시성 부족</h3>
 <div style="background-color: #f9f9fb; border: 1px solid #EAEAEF; padding: 25px 30px; border-radius: 12px; margin-bottom: 40px;">
 <p style="font-size: 16px; font-weight: bold; margin-bottom: 12px; color: #1a1f27;">✔️ 예시 1) 재고 관리</p>
@@ -62,7 +60,6 @@ meta_description: "병원에 내부 운영 시스템이 필요한 이유. 정보
 </div>
 </section>
 <section style="margin-bottom: 60px;">
-<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; color: #1a1f27; line-height: 1.5;"> </h2>
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; color: #1a1f27; line-height: 1.5;">차트(EMR)와 운영 시스템의 역할 차이</h2>
 <p style="font-size: 16px; font-weight: 400; color: #1a1f27; margin-bottom: 20px; line-height: 1.8;">EMR은 의료 기록을 남기지만, 운영에 대한 맥락을 관리하긴 어려워요. 차이를 예시로 보면 아래와 같습니다.</p>
 <table style="width: 100%; border-collapse: collapse; font-size: 15px; line-height: 1.6; color: #1a1f27; border: 1px solid #EAEAEF; border-radius: 12px; overflow: hidden;">
@@ -79,7 +76,6 @@ meta_description: "병원에 내부 운영 시스템이 필요한 이유. 정보
 </table>
 </section>
 <section style="margin-bottom: 60px;">
-<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; color: #1a1f27; line-height: 1.5;"> </h2>
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; color: #1a1f27; line-height: 1.5;">이런 운영 구조를 만들 수 있어요</h2>
 <p style="font-size: 16px; font-weight: 400; color: #1a1f27; line-height: 1.8;">노션·구글 워크스페이스를 활용해 구조화와 자동화를 적용하면,<br /> 병원 운영에 필요한 대부분의 영역을 하나의 흐름으로 관리할 수 있어요.<br /><br /><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/7a0291bb69f45.png" alt="" /></p>
 </section>
