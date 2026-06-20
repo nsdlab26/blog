@@ -84,4 +84,11 @@ meta_description: "엑셀 시트 대신 워크플로우로, 자동 계산되는 
 <div style="font-size: 16px; line-height: 1.8; color: #1a1f27; background-color: #f5f4f8; padding: 25px 30px; border-radius: 12px; text-align: left; font-weight: 400;">사실 휴가 신청 사례로 소개했지만, 결재 신청이나 비용 승인 등 <strong style="font-weight: bold;">신청-승인-관리 흐름이 필요한 모든 프로세스</strong>에 그대로 적용할 수 있는 구조입니다. 😀</div>
 </section>
 <p style="margin-top: 32px;"> </p>
+  <div style="background:#16102b; border-radius:16px; padding:36px 40px; display:flex; align-items:center; justify-content:space-between; gap:32px; border:1px solid #2e2250; margin-bottom:60px; flex-wrap:wrap;">
+  <div>
+    <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; color:#a78bf6; margin-bottom:10px; text-transform:uppercase;">노션 운영 시스템</div>
+    <h3 style="margin:0; font-size:20px; font-weight:900; color:#fff; line-height:1.6;">연차 계산부터 차감까지, <br>자동으로 돌아가는 휴가 관리 시스템</h3>
+  </div>
+  <a href="https://www.nsdlab.kr/main/?idx=8" target="_blank" style="display:inline-block; background:#8366EE; color:#fff; font-size:14px; font-weight:700; padding:14px 28px; border-radius:10px; text-decoration:none; white-space:nowrap; flex-shrink:0;">바로 구매하기 →</a>
+</div>
 </div>
