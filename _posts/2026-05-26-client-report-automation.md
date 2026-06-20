@@ -3,7 +3,7 @@ layout: post
 title: "클라이언트 정기 리포트, 제작부터 발송까지 2시간을 5분으로"
 slug: client-report-automation
 category: 업무 프로세스 자동화
-cover: https://i.ibb.co/bgbz4m08/2026-05-26-182709.png
+cover: "/thumnails/client-report.png"
 date: 2026-05-26
 meta_title: "클라이언트 정기 리포트 자동화 ㅡ 제작부터 발송까지, 2시간을 5분으로"
 meta_description: "플랫폼마다 데이터를 직접 뽑아 클라이언트별로 리포트를 만들고 발송하는 구조. 건수가 늘수록 제작 시간이 비례해서 커지는 이유와 자동화로 바꾸는 방법."
