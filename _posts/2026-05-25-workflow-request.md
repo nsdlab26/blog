@@ -2,7 +2,7 @@
 layout: post
 title: "반복되는 자료 수합 업무, 80% 단축하는 구조"
 slug: data-collection-automation
-category: 업무 프로세스 automation
+category: 업무 프로세스 자동화
 cover: https://i.ibb.co/67KV350X/33.png
 date: 2026-05-25
 meta_title: "정기 자료 요청·추적 자동화 ㅡ 시기별로 자료를 요청하고, 누락 없이 취합"
