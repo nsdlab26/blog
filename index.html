@@ -111,7 +111,7 @@ title: 활용 사례
     <a href="{{ post.url }}" class="card" data-cat="{{ post.category }}">
       <div class="card-thumb">
         {% if post.cover %}
-          <img src="{{ post.cover }}" alt="{{ post.title }}">
+          <img src="{{ post.cover | relative_url }}" alt="{{ post.title }}">
         {% else %}
           <img src="https://via.placeholder.com/400x300/f4f3fa/8366ee?text=NSD+Lab" alt="{{ post.title }}">
         {% endif %}
