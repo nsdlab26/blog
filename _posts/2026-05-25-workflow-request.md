@@ -102,12 +102,10 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 
 <div style="background:#16102b; border-radius:16px; padding:36px 40px; border:1px solid #2e2250; margin-bottom:60px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
   <div style="flex:1; min-width:240px;">
-    <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; color:#a78bf6; margin-bottom:10px; text-transform:uppercase;">세무회계 자동화</div>
-    <h3 style="margin:0 0 10px; font-size:20px; font-weight:900; color:#fff; line-height:1.4;">자료 수합에 쓰는 시간을
- 80%+ 줄여보세요  </h3>
-    <p style="margin:0; font-size:14px; color:#C0B3E0; line-height:1.7;">구글 시트와 드라이브만으로도 시작할 수 있어요.</p>
+    <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; color:#a78bf6; margin-bottom:10px; text-transform:uppercase;">업무 프로세스 자동화</div>
+    <h3 style="margin:0 0 10px; font-size:20px; font-weight:900; color:#fff; line-height:1.4;">반복되는 자료 수합 업무, 80% 단축하는 구조 </h3>
+    <p style="margin:0; font-size:14px; color:#C0B3E0; line-height:1.7;">동일한 프로세스가 있다면 어떤 업종이든 적용 가능해요.</p>
   </div>
-  <a href="https://nsdlab.kr/workflow-tax" style="display:inline-block; background:#8366EE; color:#fff; font-size:14px; font-weight:700; padding:14px 28px; border-radius:10px; text-decoration:none; white-space:nowrap; flex-shrink:0;">워크플로우 보기 →</a>
+ <a href="https://nsdlab.kr/workflow-tax" target="_blank" style="display:inline-block; background:#8366EE; color:#fff; font-size:14px; font-weight:700; padding:14px 28px; border-radius:10px; text-decoration:none; white-space:nowrap; flex-shrink:0;">더 알아보기 →</a>
 </div>
-
 </div>
