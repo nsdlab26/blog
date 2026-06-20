@@ -4,7 +4,7 @@ title: "세무회계 자동화: '구글 시트와 드라이브'로 끝내는 신
 slug: workflow-tax
 category: 업무 프로세스 자동화
 date: 2026-06-20
-cover:" /blog/thunmails/workflow-tax.png"
+cover: "/blog/thunmails/workflow-tax.png"
 meta_title: "세무회계 자동화, 프로그램 없이 구글 시트와 드라이브로 구축"
 meta_description: "매달 반복되는 세무 회계 사무소의 거래처 자료 요청과 취합 스트레스, 이제 구글 시트와 드라이브 기반의 자동화 워크플로우로 해결해 보세요."
 ---
