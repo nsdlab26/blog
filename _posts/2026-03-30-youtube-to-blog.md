@@ -58,9 +58,9 @@ meta_description: "영상 하나로 블로그 글까지. 영상 스크립트 기
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;">콘텐츠 자동화는 프롬프트를 미리 작성해두더라도 항상 만족스러운 결과가 나올지 걱정이 많았는데요.<br /> 프로세스가 이렇게 바뀌니까 심리적 부담감도, 투입되는 시간도 줄어서 개인적으로는 정말 만족스러운 시스템 중 하나입니다.</p>
 </section>
 <p style="margin-top: 32px;"> </p>
-  <div style="background:#16102b; border-radius:16px; padding:36px 40px; border:1px solid #2e2250; margin-bottom:60px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
+<div style="background:#16102b; border-radius:16px; padding:36px 40px; border:1px solid #2e2250; margin-bottom:60px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
   <div style="flex:1; min-width:240px;">
-    <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; color:#a78bf6; margin-bottom:10px; text-transform:uppercase;">업무 프로세스 자동화</div>
+    <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; color:#a78bf6; margin-bottom:10px; text-transform:uppercase;">콘텐츠 자동화</div>
     <h3 style="margin:0 0 10px; font-size:20px; font-weight:900; color:#fff; line-height:1.4;">1시간 영상도 5분이면 완성 </h3>
     <p style="margin:0; font-size:14px; color:#C0B3E0; line-height:1.7;">유튜브 영상 블로그 글 자동 완성</p>
   </div>
