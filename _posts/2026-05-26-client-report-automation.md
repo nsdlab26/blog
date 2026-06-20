@@ -97,5 +97,11 @@ meta_description: "플랫폼마다 데이터를 직접 뽑아 클라이언트별
 </ul>
 </div>
 </section>
-
+<div style="background:#16102b; border-radius:16px; padding:36px 40px; display:flex; align-items:center; justify-content:space-between; gap:32px; border:1px solid #2e2250; margin-bottom:60px; flex-wrap:wrap;">
+  <div>
+    <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; color:#a78bf6; margin-bottom:10px; text-transform:uppercase;">업무 프로세스 자동화</div>
+    <h3 style="margin:0; font-size:20px; font-weight:900; color:#fff; line-height:1.6;">정기 리포트, <br>제작부터 발송까지 2시간을 5분으로</h3>
+  </div>
+  <a href="https://www.nsdlab.kr/workflow" target="_blank" style="display:inline-block; background:#8366EE; color:#fff; font-size:14px; font-weight:700; padding:14px 28px; border-radius:10px; text-decoration:none; white-space:nowrap; flex-shrink:0;">더 알아보기 →</a>
+</div>
 </div>
