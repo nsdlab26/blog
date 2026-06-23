@@ -2,7 +2,7 @@
 layout: post
 title: "[병원] 상담 기록 시스템, 예약률을 높이는 운영 구조"
 slug: hospital-crm
-category: 운영 시스템
+category: 업무 체계
 cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/5d3e4f85973fa.png
 date: 2026-01-03
 meta_title: "병원 상담 기록 시스템"
