@@ -2,7 +2,7 @@
 layout: post
 title: "[병원] 왜 우리 병원은 체계가 없는 것처럼 느껴질까?"
 slug: hospital-ops-system
-category: 운영 시스템
+category: 업무 체계
 cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/20e98978c8206.png
 date: 2026-01-10
 meta_title: "왜 우리 병원은 체계가 없는 것처럼 느껴질까?"
