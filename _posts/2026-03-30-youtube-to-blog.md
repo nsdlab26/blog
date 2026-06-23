@@ -2,7 +2,7 @@
 layout: post
 title: "1시간 유튜브 영상도 5분이면 블로그 글 완성 "
 slug: youtube-to-blog
-category: 운영 시스템
+category: 업무 체계
 cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/cf6dba83f51ad.png
 date: 2026-03-30
 meta_title: "1시간 유튜브 영상도 5분이면 블로그 글 완성 "
