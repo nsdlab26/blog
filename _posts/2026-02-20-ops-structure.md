@@ -2,7 +2,7 @@
 layout: post
 title: "[운영 체계 #1] 조직의 정보를 ‘자산’으로 만드는 구조 "
 slug: ops-structure
-category: 운영 시스템
+category: 업무 체계
 cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/3b60ed43fd16c.png
 date: 2026-02-20
 meta_title: "[운영 체계 #1] 조직의 정보를 ‘자산’으로 만드는 구조"
