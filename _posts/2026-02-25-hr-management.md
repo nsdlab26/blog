@@ -2,7 +2,7 @@
 layout: post
 title: "[운영 체계 #2]  HR·인사, 1명으로 전 과정을 관리"
 slug: hr-management
-category: 운영 시스템
+category: 업무 체계
 cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/545cf44c6bcbe.png
 date: 2026-02-25
 meta_title: "[운영 체계 #2]  HR·인사, 1명으로 전 과정을 관리하는 방식"
