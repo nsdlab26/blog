@@ -2,7 +2,7 @@
 layout: post
 title: "[글로벌 뷰티 브랜드] 프로젝트·업무 통합 관리"
 slug: project-management
-category: 운영 시스템
+category: 업무 체계
 cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/8fd747d24aa7c.png
 date: 2026-01-03
 meta_title: "프로젝트와 업무가 한눈에 보이는 관리 보드"
