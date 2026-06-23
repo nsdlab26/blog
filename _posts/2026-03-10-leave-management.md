@@ -2,7 +2,7 @@
 layout: post
 title: "[운영 체계 #4] 자동 계산되는 휴가 신청·승인 시스템 "
 slug: leave-management
-category: 운영 시스템
+category: 업무 체계
 cover: https://cdn.imweb.me/upload/S20260317e48e798a6d243/9ac13702d8cab.png
 date: 2026-03-10
 meta_title: "[운영 체계 #4] 자동 계산되는 휴가 신청·승인 시스템 "
