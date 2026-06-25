@@ -35,7 +35,7 @@ meta_description: "엑셀 시트 대신 워크플로우로, 자동 계산되는 
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 0;"> </p>
 </section>
 <section style="margin-bottom: 60px;">
-<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; color: #1a1f27; line-height: 1.5;">2. 휴가 신청·승인·관리 페이지 구조</h2>
+<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; color: #1a1f27; line-height: 1.5;">2. 운영 페이지 구조</h2>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 24px;">휴가는 아래 두 개의 페이지를 중심으로 운영됩니다. 승인된 휴가는 관리자 권한 없이 삭제할 수 없고, 모든 내역은 별도 관리 페이지에서 한눈에 확인 가능합니다.</p>
 <div style="background-color: #f9f9fb; border: 1px solid #EAEAEF; padding: 24px 30px; border-radius: 12px; margin-bottom: 24px;">
 <h3 style="font-size: 18px; font-weight: bold; margin-bottom: 12px; color: #8366ee;">신청·승인 (모든 멤버 접근 가능)</h3>
@@ -56,7 +56,7 @@ meta_description: "엑셀 시트 대신 워크플로우로, 자동 계산되는 
 <div style="margin-bottom: 18px;"><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/d5f2190231f3d.png" alt="" /></div>
 </section>
 <section style="margin-bottom: 60px;">
-<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 24px; color: #1a1f27; line-height: 1.5;">3. 휴가·연차가 적용되는 구조</h2>
+<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 24px; color: #1a1f27; line-height: 1.5;">3. 적용되는 프로세스</h2>
 <h3 style="font-size: 18px; font-weight: bold; margin-bottom: 12px; color: #1a1f27;">✔️ 휴가 및 경조사 종류</h3>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;">내부 규정에 맞춰 유형별 소진 여부와 일수를 설정할 수 있습니다. 연차가 차감되지 않는 항목도 부재일로 기록해 공백 현황이 보이도록 구성했습니다.</p>
 <div style="margin-bottom: 48px;"><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/5393b09733c8e.png" alt="" /></div>
