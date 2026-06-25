@@ -66,7 +66,7 @@ meta_description: "엑셀 시트 대신 워크플로우로, 자동 계산되는 
 <ul style="list-style: none; padding-left: 0; margin: 0; font-size: 16px; font-weight: 400; line-height: 1.7;">
 <li style="display: flex; align-items: start; gap: 8px; margin-bottom: 10px;"><span style="color: #8366ee; font-weight: bold;">✓</span> 휴가 종류와 일자를 선택하면 연차 소진일이 자동 계산됩니다.</li>
 <li style="display: flex; align-items: start; gap: 8px; margin-bottom: 10px;"><span style="color: #8366ee; font-weight: bold;">✓</span> 팀장이 승인하면 신청서에서 사라지고 보관함으로 이동합니다.</li>
-<li style="display: flex; align-items: start; gap: 8px;"><span style="color: #8366ee; font-weight: bold;">✓</span> 승인 요청 및 완료 시 관계자 모두에게 알림이 전송됩니다.</li>
+<li style="display: flex; align-items: start; gap: 8px;"><span style="color: #8366ee; font-weight: bold;">✓</span> 승인 요청 및 완료 시 신청자에게 알림이 전송됩니다.</li>
 </ul>
 </div>
 <div style="margin-bottom: 48px;"><img style="width: 100%; border-radius: 8px;" src="https://cdn.imweb.me/upload/S20260317e48e798a6d243/e6df517df96ba.png" alt="" /></div>
