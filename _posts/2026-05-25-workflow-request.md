@@ -57,17 +57,15 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 <p style="font-size: 11px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: #1C1C22; margin-bottom: 14px;">핵심 프로세스</p>
 <div style="width: 100%; margin: 20px 0 40px 0; text-align: center;">
 <img src="/assets/request-process.png" alt="수동 자료 수합에서 자동화 워크플로우로의 핵심 프로세스 전환 비교" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #EAEAEF;" />
- <p style="font-size: 14px; color: #555; margin-top: 15px; margin-bottom: 40px; text-align: left;">
-  <span style="color: #8366EE;">●</span> 자동화 &nbsp;&nbsp; <span style="color: #C7C5D4;">○</span> 담당자 확인
-</p>
+
 </div>
 <div style="background-color: #fcfcfc; border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; border: 1px solid #EAEAEF;" markdown="0">
 <div style="margin-bottom: 20px;">
-    <p style="font-size: 15px; font-weight: bold; color: #666; margin: 0 0 8px 0;">[기존 방식] 사람의 기억과 손을 거치는 수동 작업</p>
+    <p style="font-size: 15px; font-weight: bold; color: #666; margin: 0 0 8px 0;">[Before]업</p>
     <p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 0;">고객별로 메시지 발송 → 자료를 받아서 저장 → 고객별 폴더 생성 → 받은 자료 정리 → 업무 보드 업데이트 → 미제출자 개별 리마인드</p>
   </div>
 <div>
-<p style="font-size: 15px; font-weight: bold; color: #8366ee; margin: 0 0 8px 0;">[자동화 도입 후] 시스템이 알아서 챙기는 워크플로우</p>
+<p style="font-size: 15px; font-weight: bold; color: #8366ee; margin: 0 0 8px 0;">[After]</p>
 <p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 0;">일괄 안내 발송 → 고객이 직접 제출 → 고객별 폴더에 자동 분류 → 업무 보드 업데이트 → 미제출자 리마인드</p>
 </div>
 </div>
