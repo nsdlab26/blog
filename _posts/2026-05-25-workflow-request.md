@@ -57,7 +57,7 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 </div>
 <p style="font-size: 11px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: #1C1C22; margin-bottom: 14px;">핵심 프로세스</p>
 <div style="width: 100%; margin: 20px 0 40px 0; text-align: center;">
-<img src="/assets/leave-process.png" alt="수동 자료 수합에서 자동화 워크플로우로의 핵심 프로세스 전환 비교" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #EAEAEF;" />
+<img src="/assets/request-process.png" alt="수동 자료 수합에서 자동화 워크플로우로의 핵심 프로세스 전환 비교" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #EAEAEF;" />
  <p style="font-size: 14px; color: #555; margin-top: 15px; margin-bottom: 40px; text-align: left;">
   <span style="color: #8366EE;">●</span> 자동화 &nbsp;&nbsp; <span style="color: #C7C5D4;">○</span> 담당자 확인
 </p>
