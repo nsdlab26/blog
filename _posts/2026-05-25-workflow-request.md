@@ -38,11 +38,11 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5;">단순한 업무 같은데, 왜 이렇게 바쁠까</h2>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">규모가 커질수록 업무보다 운영 관리에 더 많은 시간이 들어가기 시작합니다.</p>
 <div style="background-color: #f5f4f8; padding: 20px 25px; border-radius: 12px; margin-bottom: 20px; color: #1a1f27; font-style: italic; line-height: 1.8;">
-<span style="font-size: 16px; font-weight: 400;">"시기가 되면 연락할 거래처 리스트를 만들고, 일일이 연락해서 자료 목록을 안내하고, 제출 여부를 하나씩 확인해요. 안 온 곳은 다시 연락하고, 부족한 서류가 있으면 또 요청하고.<br />건수가 30개만 넘어도 이것만으로 며칠이 걸려요."</span>
+<span style="font-size: 16px; font-weight: 400;">"시기가 되면 연락 리스트를 만들고, 일일이 안내 사항을 전달하고, 제출 여부를 확인해요. 미제출자는 리마인드도 해야하고.. 건수가 30개만 넘어도 이것만으로 며칠이 걸려요."</span>
 </div>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">문제는 이 과정 대부분이 아직도 사람의 기억과 확인에 의존한다는 점이에요. 일정 확인, 대상자 분류, 개별 연락, 수령 확인, 미제출 재연락까지 — 담당자가 직접 하나씩 처리해야 합니다.</p>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">단순해 보이지만 실제로는 카톡, 이메일, 구글 드라이브, 구글 시트, 로컬 폴더 등… 여러 도구를 계속 오가게 돼요.</p>
-<p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">처음에는 엑셀과 메신저만으로도 운영할 수 있지만, 건수가 많아질수록 반복 확인และ 리마인드에 쓰는 시간이 훨씬 커집니다. 결국 중요한 검토 업무보다 “확인하고 정리하는 일”에 더 많은 시간을 쓰게 되는거죠.</p>
+<p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">처음에는 엑셀과 메신저만으로도 운영할 수 있지만, 건수가 많아질수록 반복 확인과 리마인드에 쓰는 시간이 훨씬 커집니다. 결국 중요한 검토 업무보다 “확인하고 정리하는 일”에 더 많은 시간을 쓰게 되는거죠.</p>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">사람이 직접 하다 보니 누락이 생기기도 하고요. 단순 업무처럼 보이지만, 실제 업무의 무게 중심은 요청 자체보다 추적과 관리에 있습니다.</p>
 </section>
 
