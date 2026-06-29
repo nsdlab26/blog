@@ -18,8 +18,7 @@ meta_description: "엑셀 시트 대신 워크플로우로, 자동 계산되는 
 <li style="display: flex; align-items: start; gap: 10px;"><span style="color: #8366ee; font-weight: bold; flex-shrink: 0;">✔️</span> 개인별 사용 현황과 잔여분을 한눈에 확인</li>
 </ul>
 </blockquote>
-<p style="margin-bottom: 32px;"><a style="font-size: 16px; font-weight: bold; text-decoration: none; color: #8366ee;" href="https://www.nsdlab.kr/main/?idx=8" target="_blank" rel="noopener noreferrer">👉 만들어진 시스템으로 바로 도입하기</a></p>
-
+  
 <section style="margin-bottom: 60px;">
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; color: #1a1f27; line-height: 1.5;">직접 만든 휴가 관리 시스템, 25명 규모 조직에서 몇 년간 운영한 사례</h2>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;">팀이 커지다 보면 꼭 한번 이런 순간이 오게 됩니다. 업무가 사람에 대한 의존도가 높고, 히스토리가 쌓이지 않고, 뭔가 정리가 필요하다는 느낌이요.</p>
@@ -80,12 +79,7 @@ meta_description: "엑셀 시트 대신 워크플로우로, 자동 계산되는 
 <div style="margin-bottom: 40px;"><img style="width: 100%; border-radius: 8px;" src="/assets/leave_mgmt.png" alt="노션 휴가 통합 관리자 화면" /></div>
 </section>
 
-<section style="margin-bottom: 60px;">
-<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; color: #1a1f27; line-height: 1.5;">툴보다 중요한 것은 체계</h2>
-<p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;">여러 툴을 써보고 비교한 끝에 내린 결론은, 결국 중요한 것은 툴 자체가 아니라 업무 체계라는 것입니다.</p>
-<p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;">노션은 그런 체계를 만들기에 충분히 유연한 도구였습니다. 물론 모든 것을 노션 하나로 해결하기보다는, 노션을 정보의 허브로 두고 구글 워크스페이스처럼 데이터와 파일 관리에 강한 도구를 함께 활용하는 방식이 더 적합했습니다.</p>
-<p style="font-size: 16px; font-weight: 400; line-height: 1.8; color: #1a1f27; margin-bottom: 18px;">여기에 Make, Claude 같은 자동화·AI 도구를 더하면 체계 위에 자동화가 자연스럽게 얹히고, 업무 히스토리와 맥락이 쌓이면서 AI 역시 더 효과적으로 활용할 수 있게 됩니다. 😀</p>
-</section>
+<div style="font-size: 16px; line-height: 1.8; color: #1a1f27; background-color: #f5f4f8; padding: 25px 30px; border-radius: 12px; text-align: left; font-weight: 400;">사실 휴가 신청 사례로 소개했지만, 결재 신청이나 비용 승인 등 <strong style="font-weight: bold;">신청-승인-관리 흐름이 필요한 모든 프로세스</strong>에 그대로 적용할 수 있는 구조입니다. 😀</div>
 
 <p style="margin-top: 32px;"> </p>
 <div style="background:#16102b; border-radius:16px; padding:36px 40px; display:flex; align-items:center; justify-content:space-between; gap:32px; border:1px solid #2e2250; margin-bottom:60px; flex-wrap:wrap;">
