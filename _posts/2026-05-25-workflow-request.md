@@ -35,25 +35,19 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 </section>
 
 <section style="margin-bottom: 80px;">
-<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5;">반복 업무, 계속 리소스가 커지는 이유</h2>
+<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5;">단순한 업무 같은데, 왜 이렇게 바쁠까</h2>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">규모가 커질수록 업무보다 운영 관리에 더 많은 시간이 들어가기 시작합니다.</p>
 <div style="background-color: #f5f4f8; padding: 20px 25px; border-radius: 12px; margin-bottom: 20px; color: #1a1f27; font-style: italic; line-height: 1.8;">
 <span style="font-size: 16px; font-weight: 400;">"시기가 되면 연락할 거래처 리스트를 만들고, 일일이 연락해서 자료 목록을 안내하고, 제출 여부를 하나씩 확인해요. 안 온 곳은 다시 연락하고, 부족한 서류가 있으면 또 요청하고.<br />건수가 30개만 넘어도 이것만으로 며칠이 걸려요."</span>
 </div>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">문제는 이 과정 대부분이 아직도 사람의 기억과 확인에 의존한다는 점이에요. 일정 확인, 대상자 분류, 개별 연락, 수령 확인, 미제출 재연락까지 — 담당자가 직접 하나씩 처리해야 합니다.</p>
-<ul style="margin-bottom: 18px; padding-left: 20px; line-height: 1.9; color: #1a1f27;">
-<li style="font-size: 16px;">누구에게 요청했는지</li>
-<li style="font-size: 16px;">어디까지 제출됐는지</li>
-<li style="font-size: 16px;">어떤 서류가 누락됐는지</li>
-<li style="font-size: 16px;">어디에 다시 연락해야 하는지</li>
-</ul>
-<p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">이런 내용을 담당자가 직접 하나하나 확인하고 거래처에 물어보며 관리하다 보니, 거래처 수가 늘어날수록 업무량도 비례해서 커지게 됩니다.</p>
-<p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">처음에는 엑셀과 메신저만으로도 운영할 수 있지만, 건수가 많아질수록 반복 확인과 리마인드에 쓰는 시간이 훨씬 커집니다. 결국 중요한 검토 업무보다 “확인하고 정리하는 일”에 더 많은 시간을 쓰게 되는거죠.</p>
-<p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">이런 구조에서는 담당자가 놓치거나 자리를 비우는 순간, 바로 누락으로 이어지기 쉽습니다.</p>
+<p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">단순해 보이지만 실제로는 카톡, 이메일, 구글 드라이브, 구글 시트, 로컬 폴더 등… 여러 도구를 계속 오가게 돼요.</p>
+<p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">처음에는 엑셀과 메신저만으로도 운영할 수 있지만, 건수가 많아질수록 반복 확인และ 리마인드에 쓰는 시간이 훨씬 커집니다. 결국 중요한 검토 업무보다 “확인하고 정리하는 일”에 더 많은 시간을 쓰게 되는거죠.</p>
+<p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">사람이 직접 하다 보니 누락이 생기기도 하고요. 단순 업무처럼 보이지만, 실제 업무의 무게 중심은 요청 자체보다 추적과 관리에 있습니다.</p>
 </section>
 
 <section style="margin-bottom: 80px;">
-<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 24px; line-height: 1.5;">자동화 워크플로우로 어떻게 달라질 수 있나요?</h2>
+<h2 style="font-size: 22px; font-weight: bold; margin-bottom: 24px; line-height: 1.5;">자동화 프로세스로 바꾸면</h2>
 <p style="font-size: 11px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: #1C1C22; margin-bottom: 14px;">핵심 변화</p>
 
 <div style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom:40px; width:100%;" markdown="0">
@@ -63,25 +57,33 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 </div>
 <p style="font-size: 11px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: #1C1C22; margin-bottom: 14px;">핵심 프로세스</p>
 <div style="width: 100%; margin: 20px 0 40px 0; text-align: center;">
-<img src="https://i.ibb.co/5hgzRG7G/2026-05-25-204359.png" alt="정기 자료 요청 취합 자동화 프로세스 변화" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #EAEAEF;" />
+<img src="/assets/leave-process.png" alt="수동 자료 수합에서 자동화 워크플로우로의 핵심 프로세스 전환 비교" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #EAEAEF;" />
  <p style="font-size: 14px; color: #555; margin-top: 15px; margin-bottom: 40px; text-align: left;">
   <span style="color: #8366EE;">●</span> 자동화 &nbsp;&nbsp; <span style="color: #C7C5D4;">○</span> 담당자 확인
 </p>
 </div>
 <div style="background-color: #fcfcfc; border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; border: 1px solid #EAEAEF;" markdown="0">
-<p style="font-size: 16px; font-weight: bold; color: #1a1f27; margin-top: 0; margin-bottom: 16px;">🔄 업무 방식이 이렇게 달라져요</p>
 <div style="margin-bottom: 20px;">
     <p style="font-size: 15px; font-weight: bold; color: #666; margin: 0 0 8px 0;">[기존 방식] 사람의 기억과 손을 거치는 수동 작업</p>
-    <p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 0;">담당자가 직접 대상자와 일정을 확인한 뒤, 이메일이나 메신저로 개별 요청을 보냅니다.</p>
-    <p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 16px 0 0 0;">이후 고객사에서 회신이 오면 엑셀 현황판을 <strong>수동으로 업데이트</strong>하고, 제출하지 않은 곳을 일일이 찾아내어 <strong>직접 리마인드 연락</strong>을 돌려야 합니다.</p>
+    <p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 0;">고객별로 메시지 발송 → 자료를 받아서 저장 → 고객별 폴더 생성 → 받은 자료 정리 → 업무 보드 업데이트 → 미제출자 개별 리마인드</p>
   </div>
 <div>
 <p style="font-size: 15px; font-weight: bold; color: #8366ee; margin: 0 0 8px 0;">[자동화 도입 후] 시스템이 알아서 챙기는 워크플로우</p>
-<p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 0;">정해진 시기가 되면 대상자 생성, <strong>요청 메시지</strong>가 일괄 발송됩니다. 거래처에서 안내된 링크를 통해 자료를 제출하면, <strong>대시보드 제출 현황이 실시간으로 업데이트됩니다.</strong></p>
-<p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 16px 0 0 0;">마감 전까지 제출하지 않은 고객사에게만 <strong>시스템이 알아서 리마인드 메시지</strong>를 보내주어 불필요한 커뮤니케이션 리소스를 줄일 수 있습니다.</p>
+<p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 0;">일괄 안내 발송 → 고객이 직접 제출 → 고객별 폴더에 자동 분류 → 업무 보드 업데이트 → 미제출자 리마인드</p>
 </div>
+</div>
+
+<p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">여기서 사람이 계속 하게 되는 일은 많지 않습니다. 대부분은 예외 상황을 확인하거나, 잘못 제출된 자료를 개별로 안내하는 정도입니다.</p>
+<p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">이미 CRM처럼 업무 흐름이 잘 정형화된 영역에서는 솔루션을 사용하는 것이 자연스러운 선택입니다. 하지만 모든 업무가 이런 형태로 정리되어 있지는 않습니다. 조직마다 흐름이 다르고, 같은 업무라도 방식이 조금씩 다르기 때문입니다.</p>
+<p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">그래서 새로운 툴을 도입하기보다 기존의 도구 위에서 업무 흐름을 자동화하는 방식이 더 잘 맞는 경우도 있습니다.</p>
+<h3 style="font-size: 18px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #1a1f27;">Google Sheets와 Drive 기반 세무회계 자동화 구축 사례</h3>
+<p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">아래는 실제로 Google Sheets와 Drive를 기반으로 구성한 세무회계 자동화 사례입니다. 제출 페이지만 추가해서 전체 흐름을 연결한 구조입니다.</p>
+
+<div style="width: 100%; margin: 20px 0 40px 0; text-align: center;">
+<img src="/assets/request-example.png" alt="Google Sheets 및 Drive 연동 세무회계 자료 요청 자동화 대시보드 화면" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #EAEAEF;" />
 </div>
 </section>
+
 <section style="margin-bottom: 80px;">
 <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 20px; line-height: 1.5;">적용 업종 예시</h2>
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 24px;">반복적으로 자료를 요청하고 취합하는 구조라면 업종 관계없이 적용할 수 있습니다.</p>
