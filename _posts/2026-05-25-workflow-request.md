@@ -80,7 +80,7 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 <p style="font-size: 16px; font-weight: 400; line-height: 1.8; margin-bottom: 18px;">아래는 실제로 Google Sheets와 Drive를 기반으로 구성한 세무회계 자동화 사례입니다. 제출 페이지만 추가해서 전체 흐름을 연결한 구조입니다.</p>
 
 <div style="width: 100%; margin: 20px 0 40px 0; text-align: center;">
-<img src="/assets/request-example.png" alt="Google Sheets 및 Drive 연동 세무회계 자료 요청 자동화 대시보드 화면" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #EAEAEF;" />
+<img src="/assets/reques-example.png" alt="Google Sheets 및 Drive 연동 세무회계 자료 요청 자동화 대시보드 화면" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #EAEAEF;" />
 </div>
 </section>
 
