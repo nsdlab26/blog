@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "반복되는 자료 수합 업무, 80% 단축하는 구조"
+title: "자료 요청하고 정리하는 그 일, 80%는 사람이 안 해도 됩니다"
 slug: data-collection-automation
 category: 업무 프로세스 자동화
 cover: "/thumnails/workflow-request.png"
 date: 2026-05-25
-meta_title: "정기 자료 요청·추적 자동화 ㅡ 시기별로 자료를 요청하고, 누락 없이 취합"
+meta_title: "자료 요청하고 정리하는 그 일, 80%는 사람이 안 해도 됩니다"
 meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 담당자의 기억이 아닌 자동화와 시스템으로 누락 없이 관리하는 워크플로우 설계."
 ---
 
