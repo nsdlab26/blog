@@ -61,11 +61,11 @@ meta_description: "고객이 늘어날수록 가중되는 자료 취합 업무. 
 </div>
 <div style="background-color: #fcfcfc; border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; border: 1px solid #EAEAEF;" markdown="0">
 <div style="margin-bottom: 20px;">
-    <p style="font-size: 15px; font-weight: bold; color: #666; margin: 0 0 8px 0;">[Before]업</p>
+    <p style="font-size: 15px; font-weight: bold; color: #666; margin: 0 0 8px 0;">[Before]수기</p>
     <p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 0;">고객별로 메시지 발송 → 자료를 받아서 저장 → 고객별 폴더 생성 → 받은 자료 정리 → 업무 보드 업데이트 → 미제출자 개별 리마인드</p>
   </div>
 <div>
-<p style="font-size: 15px; font-weight: bold; color: #8366ee; margin: 0 0 8px 0;">[After]</p>
+<p style="font-size: 15px; font-weight: bold; color: #8366ee; margin: 0 0 8px 0;">[After]자동화</p>
 <p style="font-size: 15px; font-weight: 400; line-height: 1.6; color: #1a1f27; margin: 0;">일괄 안내 발송 → 고객이 직접 제출 → 고객별 폴더에 자동 분류 → 업무 보드 업데이트 → 미제출자 리마인드</p>
 </div>
 </div>
